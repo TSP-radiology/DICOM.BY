@@ -1,0 +1,443 @@
+{
+ "version": "5",
+ "source": "corpus/tcia_pairs.json — оригиналы корпуса ворот (TCIA Pseudo-PHI-DICOM-Data), опись 10.11.2026 + раунд ADM5 13.11.2026: классы объектов без пикселей на открытых экземплярах corpus/nbia_catalog/SR (docs/GATE_ADM5.md) + раунд S2-ADM67 23.11.2026 на открытых данных TCIA (docs/GATE_ADM67.md) + раунд S6B-ADM 24.11.2026 на открытых данных (docs/GATES.md)",
+ "rule": "объект допущен, только если его сочетание есть в combos И не сработало ни одно условие refuse_if; объект класса из documents допущен, если пара (SOP-класс, синтаксис передачи) есть в documents и данных пикселей у него нет",
+ "refuse_if": [
+  "NumberOfFrames > 1",
+  "VOI LUT Sequence",
+  "Modality LUT Sequence",
+  "VOILUTFunction ≠ LINEAR",
+  "покадровые группы (enhanced)",
+  "нет PixelData у класса изображений",
+  "оверлей в старших битах PixelData (60xx,0102 без 60xx,3000)",
+  "публичный элемент, неизвестный словарю (VR UN)"
+ ],
+ "combos": [
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1",
+   "sop_class_name": "Computed Radiography Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2",
+   "transfer_syntax_name": "Implicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME1",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 2
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1",
+   "sop_class_name": "Computed Radiography Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME1",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 1
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1.1",
+   "sop_class_name": "Digital X-Ray Image Storage - For Presentation",
+   "transfer_syntax": "1.2.840.10008.1.2",
+   "transfer_syntax_name": "Implicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 3
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1.1",
+   "sop_class_name": "Digital X-Ray Image Storage - For Presentation",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 7
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1.2",
+   "sop_class_name": "Digital Mammography X-Ray Image Storage - For Presentation",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 1
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.128",
+   "sop_class_name": "Positron Emission Tomography Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2",
+   "transfer_syntax_name": "Implicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 1,
+   "files_in_gate_corpus": 534
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.128",
+   "sop_class_name": "Positron Emission Tomography Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 1,
+   "files_in_gate_corpus": 524
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.2",
+   "sop_class_name": "CT Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2",
+   "transfer_syntax_name": "Implicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 1,
+   "files_in_gate_corpus": 2
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.2",
+   "sop_class_name": "CT Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 112
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.2",
+   "sop_class_name": "CT Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 1,
+   "files_in_gate_corpus": 154
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.4",
+   "sop_class_name": "MR Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 131
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.4",
+   "sop_class_name": "MR Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 1,
+   "files_in_gate_corpus": 19
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.7",
+   "sop_class_name": "Secondary Capture Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2",
+   "transfer_syntax_name": "Implicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 57
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.7",
+   "sop_class_name": "Secondary Capture Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 3,
+   "photometric": "RGB",
+   "bits_allocated": 8,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 145
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.13.1.3",
+   "sop_class_name": "Breast Tomosynthesis Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.4.90",
+   "transfer_syntax_name": "JPEG 2000 Image Compression (Lossless Only)",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_adm4": 2
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.13.1.3",
+   "sop_class_name": "Breast Tomosynthesis Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_adm4": 4
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.3.1",
+   "sop_class_name": "Ultrasound Multi-frame Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 8,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_adm4": 6
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1",
+   "sop_class_name": "Computed Radiography Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_adm4": 10
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1",
+   "sop_class_name": "Computed Radiography Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 8,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_adm4": 1
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.7",
+   "sop_class_name": "Secondary Capture Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_adm4": 6
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.7",
+   "sop_class_name": "Secondary Capture Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 8,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_adm4": 3
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1.2",
+   "sop_class_name": "Digital Mammography X-Ray Image Storage - For Presentation",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 8,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_adm4": 4
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.2",
+   "sop_class_name": "CT Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2",
+   "transfer_syntax_name": "Implicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 986
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.4",
+   "sop_class_name": "MR Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2",
+   "transfer_syntax_name": "Implicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 351
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.6.1",
+   "sop_class_name": "Ultrasound Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 3,
+   "photometric": "RGB",
+   "bits_allocated": 8,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 218
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.128",
+   "sop_class_name": "Positron Emission Tomography Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 114
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.20",
+   "sop_class_name": "Nuclear Medicine Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 14
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1.2.1",
+   "sop_class_name": "Digital Mammography X-Ray Image Storage - For Processing",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME1",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 11
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.1.2",
+   "sop_class_name": "Digital Mammography X-Ray Image Storage - For Presentation",
+   "transfer_syntax": "1.2.840.10008.1.2",
+   "transfer_syntax_name": "Implicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 10
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.12.1",
+   "sop_class_name": "X-Ray Angiographic Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 5
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.3.1",
+   "sop_class_name": "Ultrasound Multi-frame Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 3,
+   "photometric": "YBR_FULL",
+   "bits_allocated": 8,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 4
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.12.2",
+   "sop_class_name": "X-Ray Radiofluoroscopic Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 0,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 2
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.20",
+   "sop_class_name": "Nuclear Medicine Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 1,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 2
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.7",
+   "sop_class_name": "Secondary Capture Image Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "samples_per_pixel": 1,
+   "photometric": "MONOCHROME2",
+   "bits_allocated": 16,
+   "pixel_representation": 1,
+   "files_in_gate_corpus": 0,
+   "files_in_s6b": 2
+  }
+ ],
+ "gate_corpus_files": 1693,
+ "admitted_files": 1692,
+ "excluded_from_gate_corpus": {
+  "by_reason": {
+   "VOI LUT Sequence": 1
+  },
+  "files": [
+   {
+    "file": "corpus/tcia/4025360156/CR_9410272758/00000001.dcm",
+    "why": [
+     "VOI LUT Sequence"
+    ]
+   }
+  ]
+ },
+ "documents": [
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.88.33",
+   "sop_class_name": "Comprehensive SR Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "files_in_round": 4
+  },
+  {
+   "sop_class": "1.2.840.10008.5.1.4.1.1.88.22",
+   "sop_class_name": "Enhanced SR Storage",
+   "transfer_syntax": "1.2.840.10008.1.2.1",
+   "transfer_syntax_name": "Explicit VR Little Endian",
+   "files_in_round": 3
+  }
+ ],
+ "sha256": "02a2e6fe5db210465ac3396204b833edebb46af0cd0d1faaac7c9cb0d63f5721"
+}
