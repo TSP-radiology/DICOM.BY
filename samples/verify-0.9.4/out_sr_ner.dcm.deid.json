@@ -1,0 +1,137 @@
+{
+ "actions": {
+  "(0008,0018)": "U",
+  "(0008,0020)": "C",
+  "(0008,0023)": "C",
+  "(0008,0030)": "C",
+  "(0008,0033)": "C",
+  "(0008,0050)": "Z",
+  "(0010,0010)": "Z",
+  "(0010,0020)": "Z",
+  "(0010,0030)": "Z",
+  "(0010,0040)": "K",
+  "(0020,000D)": "U",
+  "(0020,000E)": "U",
+  "(0020,0010)": "Z",
+  "(0040,A730)": "C"
+ },
+ "admission": {
+  "admitted": true,
+  "allowlist": {
+   "sha256": "12f99dbf8a5596069d58dddcf327eeef169308d97ee9bc50b84b135a83375148",
+   "version": "7"
+  },
+  "combo": [
+   "1.2.840.10008.5.1.4.1.1.88.33",
+   "1.2.840.10008.1.2.1",
+   1,
+   "",
+   0,
+   0
+  ],
+  "reasons": []
+ },
+ "cert_version": "1.0",
+ "checks": {
+  "clinical_text": {
+   "digital_signature_stripped": false,
+   "eponyms_preserved": 1,
+   "findings": [
+    {
+     "action": "masked",
+     "category": "PER",
+     "length": 27,
+     "offset": 16,
+     "rule_id": "ECHO_NAME"
+    },
+    {
+     "action": "masked",
+     "category": "DOB",
+     "length": 11,
+     "offset": 45,
+     "rule_id": "YEAR_DOB"
+    }
+   ],
+   "items_visited": 1,
+   "level": "113104_full",
+   "ner_bundle_sha256": "19f7ec8a3e8bc20f73a49d1046829f9d258da8c3f92dfe0f89d3e5c275352828",
+   "ner_masked": 0,
+   "ner_used": true,
+   "option_113104_complete": true,
+   "review_reason": "",
+   "spans_masked": 2,
+   "text_lossy": false,
+   "text_outcome": "CLEAN",
+   "utf8_reencoded": false,
+   "verification_stripped": false
+  }
+ },
+ "input": {
+  "name_hmac": "0d00dee91c584748",
+  "sha256": "bbd8e3c183088e0f131705eacaa41c654ea35136273930dcdf5f9fe486fe97e7"
+ },
+ "key_id": "bb8afd4d85be1d13",
+ "outcome": "PROVEN",
+ "outcome_reasons": [
+  "пиксельного канала нет; атрибуты обработаны по таблице профиля"
+ ],
+ "output": {
+  "name": "out_sr_ner.dcm",
+  "sha256": "d3d24ba418818abab73792a009abf72180cb249862afca3d81eff6f91333257f"
+ },
+ "pixel_check": "no_pixels",
+ "pixel_sha256": {
+  "input": null,
+  "output": null
+ },
+ "pixels": {
+  "checked": false
+ },
+ "policy": {
+  "attributes": {
+   "id": "attribute_policy_v1",
+   "sha256": "3ac1e832ca1ea38badd9b6005382e103a74b28842254c09a96a588c5d40ae4b4"
+  },
+  "clinical_text": {
+   "eponyms": "9e197f72a56c3ca453e9e2c24d70544f5eb0a5248d68c4741a111684c1a242d8",
+   "ner_bundle": "19f7ec8a3e8bc20f73a49d1046829f9d258da8c3f92dfe0f89d3e5c275352828",
+   "rules": "db43c2b105930d84c2b6b0533d1239462703abf21670ef49edddcd1390c9adfa",
+   "sr_concepts": "34159a337193ae3081443d5dea20289211aad3c78c45840331e8e94e0e9edfe5"
+  },
+  "header_lexicon": {
+   "descriptor_vocab": "d0bad7d88ab11ee852c084ade4269be07d6fd2d6312530ed44184184ca024c24",
+   "device_vocab": "b70d82606fe1cbcebbf8c0ac6f98897c84c9191543ecaab61a61b5f81454d127",
+   "lexicon": "19e433d8df9cf076b565e5da9d75f7c6ec74d39c82330321c70c50e1d748c83f"
+  },
+  "id": "whitelist_default",
+  "sha256": "8d06492b7984e8dc98d087adc100fefce31ddef45a866786f4bfdfc49f422049",
+  "tables": {
+   "dicom_codes_v1.json": "99b334b7554cf934e4a914f9c3d5cfe00292cd6503648afcf8eea3819f8b2e38",
+   "dicom_dictionary_v1.json": "6d7db7ee0a8bf48364a476ca08c5cbc5e47e2c45c0614ea90ebc2c5a04b03b4b",
+   "dicom_uids_v1.txt": "9afc53260839443345d4bd511611b2164c267c5cc7f0519cdd19187ae57e87c1",
+   "known_values_v1.json": "e83e32e547cd024b3f0e2e8baee86d504672c09a5d193bd81ac8d65c85cd2c9f"
+  }
+ },
+ "prev": null,
+ "profile": {
+  "options": [
+   "retain_patient_chars",
+   "retain_long_modif_dates",
+   "clean_descriptors",
+   "clean_struct_content",
+   "shift_time",
+   "clean_sr",
+   "clean_structured_content",
+   "use_ner"
+  ],
+  "pseudonym_prefix": "PS"
+ },
+ "publication": "released",
+ "seal": "18ffbdd5fd6c378530ec170959a194a5588246a4aef11b01a57fff6238f7af4d",
+ "standard": "DICOM PS3.15 2026d - Security and System Management Profiles",
+ "tool": {
+  "engine": "cpp-core",
+  "name": "DICOM-Anonymizer",
+  "version": "0.9.4"
+ }
+}

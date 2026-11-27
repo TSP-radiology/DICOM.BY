@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 212 40" width="212" height="40" role="img" aria-label="DICOM.BY Dark">
+  <title>DICOM.BY</title>
+  <g transform="translate(0 4)">
+    <rect x="4" y="4" width="5.5" height="24" rx="1" fill="#14B8A6"/>
+    <path d="M 11.5 4 H 16 A 12 12 0 0 1 16 28 H 11.5 V 22.5 H 16 A 6.5 6.5 0 0 0 16 9.5 H 11.5 Z" fill="#F8FAFC"/>
+  </g>
+  <text x="42" y="27" fill="#F8FAFC" font-family="Inter, 'IBM Plex Sans', 'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="700" font-size="21" letter-spacing="0.06em">DICOM<tspan fill="#14B8A6">.BY</tspan></text>
+</svg>

@@ -1,0 +1,274 @@
+{
+    "schema_version": "2.3",
+    "platform": "DICOM.BY",
+    "generated_at": "2026-11-27T16:49:37Z",
+    "update_signing_pubkey_ed25519": "e3e4a53f46c919f587460c6522c00c9e53299f1c564619d997ccb6d21b8b45c7",
+    "supply_chain": {
+        "sbom_cyclonedx_url": "https://dicom.by/updates/sbom-0.9.4.cdx.json",
+        "sbom_cyclonedx_sha256": "58c944f17b81022abb1b417a60bca2b444a73ee6783dbce06c93f0de17e2b51c",
+        "public_verifier_url": "https://dicom.by/public_verifier/dicom_by_verify.py",
+        "public_verifier_sha256": "40e9c23b063f1735780621b157e9d57211930dd9c1778e9a67812d120c57a477",
+        "gates_doc_url": "https://dicom.by/docs/GATES.md",
+        "gates_doc_sha256": "9eff07f0abbc56b1feea6b78bc43210eee816d507f3121fb8285ccf2fb2a81d7",
+        "conformance_statement_url": "https://dicom.by/docs/DICOM_CONFORMANCE_STATEMENT.md",
+        "conformance_statement_sha256": "61b5d2aa5bfaced02e032e3b92e3cf9b68787071e9a8ff91e500d89fbad29bdb",
+        "key_lifecycle_doc_url": "https://dicom.by/docs/KEY_LIFECYCLE_AND_PROVENANCE.md",
+        "key_lifecycle_doc_sha256": "9cda241c864192de9c164c7c91607daee4c8cad9d13fe99dfb88fe6d928834f3",
+        "sample_audit_head_sha256": "be934758d31eec9b12f0bc964f20dfe1fd1551f2724184805e855dbc12419b1f",
+        "tcia_cohort_237_manifest_url": "https://github.com/TSP-radiology/DICOM.BY/blob/main/benchmarks/tcia_cohort_237_manifest.json",
+        "tcia_cohort_237_manifest_sha256": "7f91877128a61a769e30f873c911d11337a09b779d08dec51e0d511fbf3dd2b6",
+        "tcia_signed_certs_237_url": "https://dicom.by/assets/samples/tcia-certs-0.9.4.tar.gz",
+        "tcia_signed_certs_237_sha256": "e760e5b7a9e31606679a22bd316185afcb0163eb0aabf405933ef030a9150c7c",
+        "github_actions_windows_repro_workflow": "https://github.com/TSP-radiology/DICOM.BY/actions/workflows/ci.yml",
+        "authenticode_code_signing": false,
+        "independent_third_party_audit": false
+    },
+    "editions": {
+        "desktop_community": {
+            "name": "DICOM.BY Desktop (Registered Freeware)",
+            "version": "0.9.4",
+            "license": "Freeware-Registered (Ed25519 offline key)",
+            "components": [
+                "DICOM-BY.exe",
+                "dicom-anon.exe",
+                "dicom-verify.exe"
+            ],
+            "installer_file": "DICOM-BY-0.9.4-Setup.exe",
+            "installer_sha256": "6fd7e858a8b08dff36f132ee00122b010367d2aed3b05b12eaf11688e0c8eeaf",
+            "installer_size": 51481316,
+            "download_url": "https://dicom.by/downloads/DICOM-BY-0.9.4-Setup.exe",
+            "registration_url": "https://dicom.by/get-key/",
+            "update_manifest_url": "https://dicom.by/updates/windows-x64.json",
+            "repository_url": "https://github.com/TSP-radiology/DICOM.BY"
+        },
+        "gateway_pro": {
+            "name": "DICOM.BY Gateway Pro (Enterprise)",
+            "version": "0.9.4",
+            "license": "Commercial",
+            "components": [
+                "dicom-anon-gateway.exe",
+                "gateway.example.json",
+                "DICOM-BY.exe",
+                "dicom-anon.exe",
+                "dicom-verify.exe"
+            ],
+            "zip_file": "DICOM-Anonymizer-0.9.4-win-x64.zip",
+            "zip_sha256": "5f67a2db93bce5caa34372cdc2935e7f68f4b86d5d8d77a38bb6bd22629b7de4",
+            "zip_size": 57124803,
+            "package_file_count": 80,
+            "inquiry_url": "https://dicom.by/pilot/"
+        }
+    },
+    "core": {
+        "version": "0.9.4",
+        "cpp_standard": "C++17",
+        "dicom_standard": "DICOM PS3.15 2026d",
+        "admission_version": "7",
+        "admission_canonical_rules_sha256": "12f99dbf8a5596069d58dddcf327eeef169308d97ee9bc50b84b135a83375148",
+        "binaries_sha256": {
+            "dicom-anon.exe": "f8cf8a2af00548915ddf35e1c95e8ce4e9d1d86a742eb9c85d68b99adf12a1a8",
+            "dicom-anon-gateway.exe": "fffc578efe7c51d3950ebd00023109401f85c665f5f1c0bd5cfea875696722c2",
+            "dicom-verify.exe": "2b619afbf45a80e6ddcfb9ba649cdfe8e1e5b467396e284c8593dbb0ddd05a8a",
+            "DICOM-BY.exe": "083f11a04a2a7524c6cc90ce0d2f00af52b6a04a9c6c35a97f542aa190a2635d"
+        },
+        "models_ocr_sha256": {
+            "ch_PP-OCRv4_det_infer.onnx": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9",
+            "ch_PP-OCRv4_rec_infer.onnx": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+            "ch_ppocr_mobile_v2.0_cls_infer.onnx": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c",
+            "eslav_PP-OCRv5_rec.onnx": "dc6bf0e855247decce214ba6dae5bc135fa0ad725a5918a7fcfb59fad6c9cdee"
+        },
+        "models_clinical_ner_sha256": {
+            "dicom_eta_ner_int8.onnx": "99d03e2a97198ef357768c2f2a1a1ab0f2eb9558ed4ec56c0e3fea6ad77d1d32",
+            "vocab.txt": "efdf896761f5559db08559f97fef2968c7806f1dc0ae5c891bcbb345a913a9ed",
+            "transition_v1.json": "9ed4306aa2d960974a26a0598aee84972e804dce102a7ea031f9b8e0519ed100",
+            "calibration_v1.json": "c30542e59599e6a7f624a6aa400e9de69fa7a589c1ab6226074d0de449b28b20"
+        },
+        "standards_sha256": {
+            "admission_v7.json": "0b327213dc3cbbdcc5a756a305f810e1ae666d1f69abdea053872c8141cb476d",
+            "admission_v6.json": "9157948ec8cb43e6fee52986cd22bf317ba4f248ff3706f1788807eea93028fb",
+            "admission_v5.json": "2638180bc7f9a9dfd10f339fe40862c32823db2a788cda63e771781e4cd00360",
+            "annex_e.json": "f38f6967a94830a19c4d46ff77be82d01590d854f2f1c8c6b1d42867c2f4e839",
+            "attribute_policy_v1.json": "3ac1e832ca1ea38badd9b6005382e103a74b28842254c09a96a588c5d40ae4b4",
+            "private_safe_v2.json": "a0917d61dfcc1a3cc6f3240ce611bcb97f1eb71baa651843f6d5dde6c1f0f3b6"
+        }
+    },
+    "benchmarks": {
+        "s6a_validation": {
+            "series_rate_pct": 98.23,
+            "sr_imagetype_target_errors": 0
+        },
+        "s6b_blind_test": {
+            "total_objects": 29660,
+            "released": 28605,
+            "review": 953,
+            "refused": 102,
+            "refused_series": 4,
+            "total_series": 428,
+            "series_all_numerator": 174801,
+            "series_all_denominator": 178820,
+            "series_complete_pct": 98.16,
+            "series_all_pct": 97.75,
+            "objects_all_numerator": 7864280,
+            "objects_all_denominator": 8035948,
+            "objects_pct": 97.86,
+            "released_series_pct": 80.79,
+            "released_objects_pct": 95.26,
+            "released_without_review_refused_series_pct": 98.2,
+            "dciodvfy_new_errors": 0,
+            "pixels_hidden_leaked": 0,
+            "hipaa_z_failures": 0,
+            "hipaa_z_checks": 1116405,
+            "hipaa_b_failures": 1,
+            "hipaa_b_checks": 697264,
+            "hipaa_b_category": [
+                "patient_address",
+                "comment"
+            ],
+            "k2_status": "FAIL (strict zero threshold)",
+            "blind_k5_preserved": true,
+            "throughput_obj_per_sec": 9.53
+        },
+        "g5m_clinical_labels": {
+            "preserved_pct": 79.2,
+            "threshold_pct": 80,
+            "status": "FAIL (historical 0.4.0; closed in 0.6.0 G5R)"
+        },
+        "gateway_050_security_and_return": {
+            "security_clinic": "7/7 PASS (S1..S7)",
+            "ai_return_rebind": "PASS (C1..C3)",
+            "ai_router": "5/5 PASS (T1..T5)"
+        },
+        "g5r_ocr_060": {
+            "seed": 20261130,
+            "phi_ge_12px_pct": 100,
+            "phi_ge_12px": "600/600",
+            "red1_a3_attacker_reads": "0/731",
+            "false_blank_pct": 0.91,
+            "false_blank": "5/547",
+            "clinical_labels_pct": 83.3,
+            "clinical_labels": "864/1037",
+            "threshold_pct": 80,
+            "status": "PASS"
+        },
+        "midi_b_validation_060": {
+            "total_objects": 23921,
+            "released": 23125,
+            "review": 796,
+            "refused": 0,
+            "hipaa_released_failures": 0,
+            "hipaa_released_checks": 567859,
+            "dciodvfy_new_errors": 0,
+            "dciodvfy_fixed_errors": 1109,
+            "roi_center_ssim": 0.9984,
+            "our_only_pct": 1.35,
+            "our_only": "3/223",
+            "verify_cert_clean": "67/67",
+            "status": "PASS"
+        },
+        "g6_ner_070": {
+            "model": "DicomEtaNER-v1",
+            "languages": [
+                "RU",
+                "BY",
+                "EN",
+                "ZH"
+            ],
+            "charsets_added": [
+                "GB18030",
+                "GBK",
+                "GB2312",
+                "ISO 2022 IR 58"
+            ],
+            "artifact_total_mb": 10.17,
+            "cpu_median_ms": 1.01,
+            "cpu_p95_ms": 2.06,
+            "pt_fp32_vs_ort_int8_match": "30/30",
+            "overall_span_f1": 0.9488,
+            "wikiann_span_f1": {
+                "ru": 0.9541,
+                "be": 0.9543,
+                "en": 0.9439,
+                "zh": 0.8993
+            },
+            "standalone_phi_leak_pct": 0.74,
+            "standalone_phi_leak": "10/1352",
+            "eponym_preserved_pct": 100,
+            "eponym_preserved": "448/448",
+            "benign_false_intervention": "2/448",
+            "e2e_cpp_phi_leak": "0/100",
+            "false_quarantine_reduction": "26/100 -> 1/100 (-96.2%)",
+            "sr_e2e_proven": [
+                "SR_RU",
+                "SR_ZH_UTF8",
+                "SR_ZH_GB18030"
+            ],
+            "sabotage_fail_closed": "3/3",
+            "status": "PASS"
+        },
+        "engine_080_perf_and_codecs": {
+            "ct48_jobs8_before_sec": 14.954,
+            "ct48_jobs8_after_sec": 6.311,
+            "ct48_jobs8_fps_before": 3.21,
+            "ct48_jobs8_fps_after": 7.61,
+            "ct48_speedup_factor": 2.38,
+            "ct128_jobs8_sec": 14.812,
+            "ct128_jobs8_fps": 8.64,
+            "peak_ram_mb_before": 2621.1,
+            "peak_ram_mb_after": 966,
+            "ram_reduction_pct": 63.1,
+            "multiworker_determinism": "jobs=1 == jobs=8 byte-exact (24/24 artifacts)",
+            "codecs_and_security": [
+                "RLE Lossless (1.2.840.10008.1.2.5) native decode",
+                "JPEG 2000 multi-threaded decode + precision/sign validation",
+                "Post-decompression >HighBit steganography refusal (fail-closed)"
+            ],
+            "status": "PASS"
+        },
+        "vision_090_sota_2d": {
+            "suite": "selftest_vision_090 (6/6 pillars + sabotage gates)",
+            "radiometric_3ch_oow_stroke_erased_pct": 100,
+            "oriented_quad_collateral_reduction_pct": 94.6,
+            "steep_32deg_vision_erased_pct": 100,
+            "mixed_line_phi_erased_pct": 100,
+            "mixed_line_marker_preserved_pct": 100,
+            "tagless_us_single_and_cine_banner_zeroed_pct": 100,
+            "tagless_us_cone_preserved_pct": 100,
+            "tagless_us_coneless_sabotage_rc": 10,
+            "cine_transient_phi_erased_pct": 100,
+            "conformal_laterality_markers_screened": "16/16 (legacy quarantined 16/16 -> Vision 0/16)",
+            "initial_collision_sabotage_rc": 10,
+            "ssim_full_solid": 0.91494,
+            "ssim_full_glyph": 0.99649,
+            "ssim_patch_solid": 0.1409,
+            "ssim_patch_glyph": 0.9598,
+            "psnr_patch_solid_db": 12.88,
+            "psnr_patch_glyph_db": 36.53,
+            "psnr_gain_db": 23.65,
+            "multiworker_determinism": "jobs=1 == jobs=8 byte-exact (16/16 artifacts)",
+            "status": "PASS"
+        },
+        "vision_094_sota_2d": {
+            "suite": "selftest_vision_094 (8/8 pillars + 7 sabotage gates, reproducible)",
+            "report_url": "https://dicom.by/assets/reports/0.9.4/selftest_vision_094_report.json",
+            "report_sha256": "a694bcaaeefb8c698a4c4efe6739958de1b20ad0e815ddf2ab07b04278297675",
+            "dual_us_and_doppler_ecg": "4 regions (left/right cones + PW Doppler + ECG 100% preserved, central header + Doppler PHI 100% erased)",
+            "radiopaque_lead_and_stencil": "6/6 SCREENED intact ([Л], [П], [R] with island+pinhole, 90-deg blurred R, framed+bead L, MONOCHROME1 [L]) + 7/7 sabotage PASS",
+            "multiworker_determinism": "jobs=1 == jobs=8 byte-exact (20/20 artifacts)",
+            "status": "PASS"
+        },
+        "tcia_real_corpus_094": {
+            "suite": "run_clinical_and_matrix_093 (NCI TCIA Pseudo-PHI 237 clinical objects + 12-case admission_v7 lossless zero-recompression matrix + 216/216 pair PHI remanence audit + Windows CI runner)",
+            "report_url": "https://dicom.by/assets/reports/0.9.4/tcia_vision_094_report.json",
+            "report_sha256": "b556f2c8b3ca87650ed2fd42e20b2907b5d521e4f1883fc2ec28e5c94bd64842",
+            "matrix_report_url": "https://dicom.by/assets/reports/0.9.4/matrix_094_report.json",
+            "matrix_report_sha256": "e803ad3f6ebabfc484a00b5da7bc1eff401779dac358d6cb103b7e719b4be13a",
+            "planar_cr_dx_mg_coverage": "100%",
+            "ps3_15_0028_0303_modified": "216/216 released objects verified",
+            "independent_phi_remanence_leaks": "0/216 released objects",
+            "zero_recompression_lossless_pacs": "PASS (0% bloat, encapsulated_sha256 verified)",
+            "status": "PASS"
+        }
+    },
+    "signing_key_id": "1fa13a53af0a7294",
+    "signature_ed25519": "q77YkR9ZVmQsZ9_XIBcWsuWOUOLj5FH5dsgLmoR-iu0epe1TNkgewOqPOV-FxN3F3STNtQjNuE5bAupqI9meAg"
+}

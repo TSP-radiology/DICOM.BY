@@ -1,0 +1,24 @@
+.venv/
+.venv-gpu/
+work/
+corpus/
+core/legacy/build/
+__pycache__/
+*.pyc
+standard/part15.xml
+# модели ONNX не хранятся в git: источник и sha256 — models/*/SOURCE.md
+models/**/*.onnx
+sym_shape_infer_temp.onnx
+
+build/
+# поставка собирается tools/release/make_release.ps1 и в git не хранится
+dist/
+site/downloads/*.exe
+site/downloads/*.zip
+# отдельная сборка OpenCV для поставки: vcpkg install "opencv4[core,intrinsics,thread,fs]" --x-install-root=third_party/vcpkg_slim
+third_party/vcpkg_slim/
+third_party/webview2/
+third_party/*/lib/
+third_party/*/include/
+
+tools/docs/node_modules/

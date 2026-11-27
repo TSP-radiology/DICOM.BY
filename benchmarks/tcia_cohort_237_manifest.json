@@ -1,0 +1,2403 @@
+{
+  "schema": "dicom-by-tcia-cohort-237-v1",
+  "version": "0.9.4",
+  "admission_version": "7",
+  "demo_key_hex": "5a91c3d4e5f60718293a4b5c6d7e8f90112233445566778899aabbccddeeff01",
+  "corpus_summary": {
+    "source_dataset": "NCI The Cancer Imaging Archive (TCIA) — Pseudo-PHI-DICOM-Data",
+    "source_doi": "https://doi.org/10.7937/s17z-r072",
+    "selected_cohort_files": 237,
+    "selected_series": 26,
+    "selected_by_modality": {
+      "CR": 4,
+      "CT": 33,
+      "DX": 10,
+      "MG": 58,
+      "MR": 60,
+      "PT": 72
+    },
+    "planar_xray_mg_coverage_pct": 100.0,
+    "manufacturers_tested": [
+      "FUJIFILM Corporation",
+      "GE MEDICAL SYSTEMS",
+      "LORAD",
+      "Philips",
+      "Philips Medical Systems",
+      "SIEMENS",
+      "TOSHIBA",
+      "VICTRE"
+    ]
+  },
+  "objects": [
+    {
+      "rel_path": "292821506/CR_0654453238/00000001.dcm",
+      "series_instance_uid": "2.25.22373700284337223907674770690654453238",
+      "sop_instance_uid": "2.25.112784503178059210578740147414000844278",
+      "modality": "CR",
+      "manufacturer": "FUJIFILM Corporation",
+      "input_sha256": "1645958309240d9347eae7336fbf1a137f50ebdab4513fbf2490fe0369b257d0",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "4de111468d59a1812210a27a265cd97d38bd713a60f774e5466183fbeaaf5a31"
+    },
+    {
+      "rel_path": "292821506/CR_2204937718/00000001.dcm",
+      "series_instance_uid": "2.25.159938781348401988370074200042204937718",
+      "sop_instance_uid": "2.25.319543490466577232566740674566222888438",
+      "modality": "CR",
+      "manufacturer": "FUJIFILM Corporation",
+      "input_sha256": "3f19a6c78c02ffd5a4584fbd2c3bf777f4fca78d2400db69957ce67960a4ddfc",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "eb8980678ca5b4df15b8cf09a0fdb06261b621131ccf1aae1bf70d171dda982c"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000001.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.202760830316636536190771480177577410038",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "9321506547b134d5f845148d7b5f4b4a00964cd2327037105377904fccaea9a2",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "58de1cc54b201048d4eef6a999e7bc703945e3719ffed322578e397dd10d5df2"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000015.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.223508983465909934665905755511083089398",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "1649dbc5a0a0d10b61c30f46bd4302d833f9b99e8d183f4f867fb6a9537769f8",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "8d084121c4fbeb51c61276a27dbe86c98f9eeb77f19bd9d34d2d35a46fe079b1"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000028.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.337918669828443147869603451947061984758",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "4279010d30d560871b252ead59b3ac5f5096158ae1d03f1d7ab5e6a40118a197",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "7689fe19f2fe0090a5b9de8cbfb4c8c943606afa64cde3ba6a2bbbd39f403aa3"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000042.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.157035453052701582007986454982829915638",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "3e2188cde06dffa29ff5d958efc3d02c18103c3c7e2b84b2f498e3ccb5bccb5d",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "571496a790fe558c201b0cacca01b5e859510499f1d45ec2b4d898e5f98ea536"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000056.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.123335499804857575224048860431331737078",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "6dd414045413f38f532bdba226b9fd0335404e35eb38e900bedb979f6c438f81",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "679eac7339fd1f86db59156fae99be599a721e5207ecb2454e98f5e02f59be7a"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000070.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.160019808782486951650774493375653068278",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "3724d7e2279635281233fc61f680808584f05fe59501abab06222b29dcce61b2",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "a2d6d9209590479fde5423ccfd9b86e5bebadd235bf06712b6d64170c6410659"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000083.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.62452170681652939406782608272313138678",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "b20c5f24263bf5fc2ccb6a7e27b664e70272e6c307516ec7057764aab3310bf9",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "0b0d15fe3f10e1bcfa602c5c433a38b12a679fe9a9fb1f247726f1461982041e"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000097.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.109376410674417175836557181976156159478",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "6f8f2283ed1b7460014cfdff628ccf9b8f4167c27ed63a9eb4a513466b0c5c1f",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "9fa00c2ee5b866786af2c918d22f533138d17e460056933448b01eba57c03134"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000111.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.210189276302761587908479551863552327158",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "53086ab5cc4fd9f68425b08ed101b666143208e5f77c7f2fd8d229776d57ab4a",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "fc66b27ce3a522a28763f4ac0605be76e937eb19938cb93d0e936526e8826983"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000125.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.277055033261172245024767763104619150838",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "fc5bf6bcaea0a382d401b8a97885217135ee4bf4dfa2044bb6442e733c81b797",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "da2f3ca4f686a566a4a45c03a15162b7e8b32a9d112d67b27fa2df5834530199"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000138.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.75182946786835066779036154028894043638",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "edb9c947336cc08382dae4dd35f59ee06c8c46502fff16d048d7f71070ea489a",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "2f0ff0ff2393e13591fea8b0a848c94649ccb7faf4a6cf6c88a371ae32eee784"
+    },
+    {
+      "rel_path": "3209648408/CT_9050295798/00000152.dcm",
+      "series_instance_uid": "2.25.45367868844278747809947145409050295798",
+      "sop_instance_uid": "2.25.67711537745023404938981231264970423798",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "af240b01a810e644e14f7756f48d621b3846a6f5d45effeed80c9ec7f0f6f797",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "362fad26f771c1dec83ce7a12bef3040b304faa2586cf8b7419b7f2e51164590"
+    },
+    {
+      "rel_path": "339833062/DX_3729760758/00000001.dcm",
+      "series_instance_uid": "2.25.165719506958352694947877011193729760758",
+      "sop_instance_uid": "2.25.154889875579793602052937379231500451318",
+      "modality": "DX",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "9de13aaefb0e3fa03b38568e0dc09791d9925e11f984975d9b04f21a04513046",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "a0ada71d2b86921d9d382c7ff59534ca7e0b5ea52237a897b74610b4c551e397"
+    },
+    {
+      "rel_path": "339833062/DX_3729760758/00000002.dcm",
+      "series_instance_uid": "2.25.165719506958352694947877011193729760758",
+      "sop_instance_uid": "2.25.202458008395282640752838316167800667638",
+      "modality": "DX",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "fbcbe7561210eb516ed87b9948c9e76b966e6e7144cf196f4ed3a945dc49639b",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "2d4a8e061d06a152f6a531798371c2a763817a137f5a54146f709986b7275ced"
+    },
+    {
+      "rel_path": "339833062/DX_3729760758/00000003.dcm",
+      "series_instance_uid": "2.25.165719506958352694947877011193729760758",
+      "sop_instance_uid": "2.25.101046349387302233670999644038516817398",
+      "modality": "DX",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "b25731462db1ea3d6ff830b3c430f1e4af3eb941ad7fca2982e2d3eda31be3e5",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "6b6627b22fd310e4b0597b5c5086636a25db318edfea57a101e86b63a6c9b111"
+    },
+    {
+      "rel_path": "339833062/DX_3729760758/00000004.dcm",
+      "series_instance_uid": "2.25.165719506958352694947877011193729760758",
+      "sop_instance_uid": "2.25.218890922821898993244532754508624281078",
+      "modality": "DX",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "a917817ed0387b6b1f45ff63002440a82633e6da6d11578734f87d192f32d80e",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "f42e05fb33f48598c0499d5265154372e3adfd0732f7387b43470597f9f643be"
+    },
+    {
+      "rel_path": "339833062/DX_3729760758/00000005.dcm",
+      "series_instance_uid": "2.25.165719506958352694947877011193729760758",
+      "sop_instance_uid": "2.25.203254941901987309159355560604204645878",
+      "modality": "DX",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "da9a613c33d7462f3713115cad8f89961a80d3bdbd8fde9dac460c97d92ee1aa",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "c0aad58f0e4bd2e32910d7a08976d3160ae01a575c482f65553854c6cf51566e"
+    },
+    {
+      "rel_path": "339833062/DX_3729760758/00000006.dcm",
+      "series_instance_uid": "2.25.165719506958352694947877011193729760758",
+      "sop_instance_uid": "2.25.77110343368966390173290000643469721078",
+      "modality": "DX",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "48b84fcf372e0c05ec727d85a464fd86f1426b1917977fbc6b8beb09f8c935e7",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "20d8b34dd5a456427da1cb2e4dbda11fc963819b5efda688d7c3772bba8767fd"
+    },
+    {
+      "rel_path": "339833062/DX_3729760758/00000007.dcm",
+      "series_instance_uid": "2.25.165719506958352694947877011193729760758",
+      "sop_instance_uid": "2.25.463628102274132074849128424375172598",
+      "modality": "DX",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "dfee2e58ee6908634a8db12f86f58a7b479a77035e336b7a3875d7c9060bd7b1",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "09585d6cbf8427e79b14928854543e517adbdcaef760709f709c7c9cf5154521"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000001.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.298293777096254282561323461771599134198",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "22542a639201359b78b317f17378ccb19cceea8f5282506d3ab34f49c405cfd1",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "87c0169628caaf3526b752e76e10171d6245c91a37d3b6b097ffd48df417bf8e"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000017.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.8391066920842460586980418779757526518",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "f21b78774b94d5e95a5eeeacda78b2519625d8c7fb0333d7c7773b3a69df1f19",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ca9ffa38d4c03a5deceeacc67418e725121f372b444319221884bc71a18e71eb"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000032.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.27389597223597292273839993285330451958",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "1c84550ce1cb6aef878270d46e20d0a503b90975bd39674a87cfc1373fd2a949",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e003ce674413f767cda2c06b5d8cd1b4f942920f6497598d67810df29b215d1c"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000048.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.154301257869210126583219903806874172918",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "684fb363b8f15e9f90456a79b3376f426c15ce184f1626c6eb7f627a5515be22",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "82b3742f9fb52ab21a0a20ace830ee9f159fa45e27a6e612661166ba9bbc9f9d"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000064.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.152253466171322127101558907805367909878",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "3ed9a1131ce9fed1c4c2f7bd860f588e0201433418f007aea29d1e1f6be18757",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "9f05955360f5a89121964fc803419923087fc9f23ad9d311476a0896e3ac4153"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000080.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.99623981635175336299728580239204924918",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "96cfe85f2834d966ff2a626bd3e7a5e1390ab17c8f00c97e0a9436988c0b4825",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "df8d2f2b2e3c7fe62c3aefa934e19efb9a77bdcbb5b552c8414396ca23d0f26d"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000095.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.141361652569413713841258982873717390838",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "90add999e0d6ef62fc84312d9b7f0f2f6458b50886af99fd0de99d617927ec5b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1f97376dccef86229e863e31f9f8a8f2c6ef0cc2cbad815b6c53400f53af9101"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000111.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.40325582192507615706894577227676630518",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "5ddf30c3920da5ecc604c89b4324ddc5c84023eeb543e21dbf66758075cadbec",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "625b5d24855eb4265065f84902eb933a3e0a172b6cae05ecc2b89ded693373a0"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000127.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.65108976588282086569231161653020179958",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "8066e2ea0e0829ea88230b7e70d93b4be9b9b62e35df2c110902ec0b0cf2b250",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e40065e06c64b8d9a85aced51c9e61ea6131e8b4322fc89cefcb754f9a6241af"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000143.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.263817352599238166421338907379750256118",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "1306bb8a69a315041d89097eff1242093d17b6847713dc2bf4f54f51da888f52",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "26693a91c841bfb8dfc49f5f6d7f2559984189f75c2b1cc6dfb51c4b90b2bd08"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000158.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.14386508377882262374773805423368191478",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "a6e8d87242350d4f10d4fbc20fc9c6eac151a64812290a67e897a5cdcabb5562",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "fd2bb6dca6e1bcabd494649ce702ae47322ed9ff99ca47b7ff6a49d207973a6e"
+    },
+    {
+      "rel_path": "3642991663/PT_3711876598/00000174.dcm",
+      "series_instance_uid": "2.25.16889725737787757262937018243711876598",
+      "sop_instance_uid": "2.25.277269863592956173346726161267713228278",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "9ad114a4633a8a1521ea3ab5091433530baf36b98b06f1a13946d9e0cf9cdb9c",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "593d5f61ee21a5766e959bcddf1355b1192c7752a3d48ab7306130bcb0c84a52"
+    },
+    {
+      "rel_path": "4025360156/CR_9410272758/00000001.dcm",
+      "series_instance_uid": "2.25.30562807935945476104184698489410272758",
+      "sop_instance_uid": "2.25.205802782939865713150381585183696076278",
+      "modality": "CR",
+      "manufacturer": "FUJIFILM Corporation",
+      "input_sha256": "44e242bf23296847f6a8231d5db10ba895d6e65ffff8c95e28b5ef2c701fff7e",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e42bfdbcf4c2a61448b9733c001bdfd2461f9f2a080780208d3c447b20530be0"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000001.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.24159060974261912482029479355985018358",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "8778d53a36b99155d3468fb6dafcc6e026ff18aaa4fff88d597c9f1825f260e8",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "d0e10ac0499bf7fb9f399ccaab7524d7343265690d8b4641fcce90ba09214ee5"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000002.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.154324320395036403789250008515377479158",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "06800eb0867657c6435b436a2c2d174e2f6ce0f99c6d4a49da0c86ec828c516c",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "858913602cc153bd4dbbe11f69a550736c19014e6ce635f47a9641379a66f930"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000003.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.231752443221566222483291606330648411638",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "f7f9015971db8200ab5ed84609d4a518eadff2ff24c85472d4705dd714f39b3a",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "666b7fe005652542df595dce240c98732282acd8b317804d1296c57b48c4989d"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000004.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.3663580300174942975740094550292151798",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "edb765e415188d998ce47bb687d9595694df80f9a31a3c0383978fa4efadcb1e",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "30f6c941f9f6314c40fdfff3c389942fa6c6750eb5bc8c195f44e4b63530dbb1"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000005.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.109761594232112774766635714599504690678",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "0479eb74b17c53a2e2e15f62fa5635c42103432b4f277d85675cc9ff2caec1db",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e9a4354eb2fa75d2eb73d5fa92709d1884b21379fb534a492bbc0d703cb861e0"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000006.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.173688140856161127773661752693809069558",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "c9976dd5bf573fdcc116508cb1420175b4ef0ce1c6bf3491b880fbd241e1475f",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "3e73752a2e8aa0434d2f5b15ee3f2999e832e203d359ba7e49bd0e0b2ac72595"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000007.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.210413343846013054309557981315816078838",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "39a4a1918d26008047ac2ced7391d5a5b6afcb19928baca3a7b3cc3849c4d19c",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "4db46249356c42118fba16669bab8f4520c0177d21b77b2f64a8939e638446ad"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000008.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.229600624154015368783726911186911477238",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "3c1682b31515838d1dd11c9c174758ca830509b9fc466b0a495cb2f29b9d752d",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e0a6bc793062542d4be89cc5339e941a296646564db915b89b1c172bfc94f95c"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000009.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.281847054785474944080873220591110962678",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "55f344ab5093b24b9f67f647f3121725a2f702efdb8ceddd94e0ea376c633f96",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "d8f452641f0c89f6054ff832351160cb433ea07f8b14fd0a10fc3cc8f9659cf4"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000010.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.40106854627409610722169952637665525238",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "262029ed60b9b0e3da3c473bda50d201d828b789e91490c79a33bdfa9f7967c5",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "fe901315dfd46cf1c83d0d2249ebea5c98454434394abd5b86c382d3f93a53f2"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000011.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.295353024189567825725408342324123647478",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "8eba8d9fd0bbbe05b9de68a5050584957dbbe018a8a43934e46ac8e4b4a32ab0",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "cd972cf84a46f708353077fd11b61dc6cd75788d442d8c8cf991e491ddae6ccf"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000012.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.281982153063631017344050979864344903158",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "331e49a214f324e312ed101b77e83bd1d3f70b93f38959f755310b027349de36",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "5baf1cf63cd8d026ec0c24240c6c3074aef9b35c9d33445ec88680c3d8cc1355"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000013.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.319494451403107403512343774602722917878",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "599696460fb92a29658ebbb3e7037eb39d4d76475f200bb26877b22df23e7b4f",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "800aaf8ddca2316c2cf14a0fff16318d9f0382c80228bdb856267d614bcbf6fd"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000014.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.210454347193099874103514456084153220598",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "1743299c90ccd1a8b32d240a0e27e008272123b4dd8f31d1b4ba0021e4921c41",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "5f358e738b994df8ca23c455cc72e04cc0e58a76d34f16932dea235e2744e0f3"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000015.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.13984708693803359356493466795035442678",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "bec7611bafc2f3c60073c53563f1b5405df716568f8b2db7c512f77242f5308c",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "54795f8961dd9ccc13a8aa93d41bfd22107e718a7d0166044a6ee200fa04396d"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000016.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.91697046311579785937462696855626956278",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "a619bacd167e4f06d9ed3331d2fcc951e6243f74b2e3f61711125b931e2b9851",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "a529748a9feea632bf97036f79c1ef33ac90297f4b0534101af61a33a66f887f"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000017.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.5985920557341997523820622467458252278",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "0d371616d86884dc5756c861464c94bccf3c23a12737d2c2ed20211063eb5487",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1380fc70ec2b14d1758f807e4a628c8c8341369f9f7e679d496d83adce36bf6b"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000018.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.59320482656996856373127303517164912118",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "29044e1f68e2ea7767c0d738b10ac00b97d661a2c17c03e43335a0d506cf0d69",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "b885d7b0237f90bdabf546d4718f0d8918f6f7901a8974cbf51a32a4eea6a469"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000019.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.274030881621496772976528175553261977078",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "39a9eea3c07506adfe2b91ccc5538863467195128e30f458aec0a8fcea1a7065",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "3265ce858493ae97ac88bc36edf49450519e3806853c003c896a71432814a438"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000020.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.256149099206955751977924384832618085878",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "a9e5b661dfa3393205761956421a04044382cd32bd9842719856aee2227473cb",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "6d36bfe26cb6b5677ba81490ade164f1cf848deafacf4e32c1932789094f6e97"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000021.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.258994680867985199063592011480631459318",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "8e552195e09870f1d9c26a6d752f2b28c5494930ad74e977a2a88857a28d1643",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "302a8102a4e97314fb01e31966942bf974d51cf648185968ac465e3b51e36847"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000022.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.51416789707156490596937862186857512438",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "69b6a755ba33febe34490f9fabc5a0ef60e73cde110d8c9cb1527f0f5fc4c517",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "4cb49547c2e019f805d98486f9c71e36ddcf9dae0f5b94ee3069f334f2524e97"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000023.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.172990585214402163982396530272910294518",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "3b7dac6e1654a8b4952b992cc7377e26b26fdced6864f5442f91c17911482dbd",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "b9e5a545bfead66cf1230dc58788c5a63602c9469e7c89bb2d6106dad49dabc7"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000024.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.175907711094604429478876191011236330998",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "ba52aa50839f9eb06427d9dfc852bdd15a8b7fa34258044d0242d0c0cbd165fe",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "7b93ce0cbc0471e7dfde61e9219e12d198e6e5359dcd1bb16ad00c07dcd75802"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000025.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.112734123970220452743072852654580940278",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "aaa818a1a826370910c6756782fb05a3dd3c76a160347de3715a663df3af1f6a",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "03d12c571301aa4140a65fa69537644a84885762d8ef6004e44aac26286fb49f"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000026.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.104522098129290680167822824559984118",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "d1e1f8c0d05f89280f58a711fcb02926f163316668707aba6986327ef070d6d4",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1b360df413cd0705a2f0af7b8e34a887295aa955c636e968dac90aa893c9d787"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000027.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.111701183632314230871123519660317326838",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "b214695c0e51ca8457adfe16af0d2b349cf458af4e41f87fd733aaa0ecae32fd",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ea0eb1a246f86e4df8bd9be9d9b4dd47425d786fefe62cff4b6b7adfde2f5e7f"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000028.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.332401834609209264948205401211278048758",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "503b99a56b0b1609e93f1ee8d5bd977590ea1514b48697c005c4cfc684c970f6",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "c813124280e9744dc8e45f1e5b589b3b009a113491d1d2ae38aedeb3a3674a83"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000029.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.3591758386292512068424795088433561078",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "7cb018d84b7e82189b232de30ef0181c85930fa73f7d3aaef271370c8c47b9ce",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "cdc1b8fad761794ff5ca35c7bb28e7c4e608cfe2ac7aadb2100f5f095b01f97e"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000030.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.117235121042708442892434512793220791798",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "ec11e9796f88e2ada3fd461565a8841692d770ea4d1bc755d95c925487882c5c",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "40d87490ed781ac9891430fb83b920e1e22675b42fdc104bb4dc5c17b9815a0d"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000031.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.75194310086043675141655508069970984438",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "fd33b563f5bd38c70b6720358d7c1d80b9cf510434326b01e5aa3af872e318b3",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "6c70f75b1bbba40f6dd274dfdb5f92a2c051ab4c4c99fe9e643914d3a4a70dcd"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000032.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.152610417565587393077579356977453710838",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "8c46003bcb29c6655d0b004949fe83c98f765972ab7e8660c2ec189057782b01",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "857160e42d8a818dfac226028d869ca27f0f2acbb8f17be38fb6209cdc401e15"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000033.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.157539312078886484918024669121666989558",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "575b9937f5d02b7bfd9bbb676490a72bbb44e87d79e8e1b6c8499c166058d172",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "3791ba94c0f1556269e6facccb30b0a6cdd2365162bc95c5e1a09c0676d5d3bf"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000034.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.10940727037332192087197591128348671478",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "27d19ce06b67f3faeea358924a0371b9addd3cb4a79f4a00098492c66ce2c009",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "9339c4f541df71250cbc750fa2dacb345e67dcd81d6c07d77c96d2f4d044903b"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000035.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.143840955304605090610441272420371906038",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "411112f51bac8f433455c7bfd8d84490c994ad271fba5d2155a44e3d11b5f829",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e3a68ddf4943d8e34981ba573d9ea41acbcebb71c1f02be8e3add1389f93d502"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000036.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.22129315074949786988542164860046786038",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "e5f1415a6a387971dfe4c701b41c768b8d682f50e6cfd85f9c23c912c50a8ab2",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "447c6aa256e82f95a17c782619b21e2cb936b127833a818fd46b4a98e09087cc"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000037.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.223397045560360843725215028973131120118",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "1682cdeb9b119c7e50ae62a3aa8c030135b62a3cf2479dbd18d2ff94f9d7da96",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "9241df7c949496c19cdb779df83e1e0f5a5ffaca84ff85f31f7011126d28a075"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000038.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.37984174885749878303328787023422668278",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "a9d597ed0cee1c21bc5169878b54c219aa546509d8daac2f61d17775f436bead",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "07d839bf92567be0c68b9d2a3033128f6e89bf2181ea526f3212529693a07d4e"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000039.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.202249084523014150837247516706204138998",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "7d86d4e2be0dd2a9f132cc5f304d8ced1672f5d5556bf928cd4a52206e517b77",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "17929fc6875d6371e60613578cccd15e1d0da686f0c8528d604fc21618b6fa17"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000040.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.72904824955589660871731646893569719798",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "007b988096bc7885f6b713e93a55ab1785f45f170c4427d0fa1ba381475e478a",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "4c1627d02e1f9ac20c0425f58575621d483e280a38505b6f1b61c781b9aba1e0"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000041.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.244989574040052452092217562860501974518",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "efc84cf86d2250978244d8870695409c17e4e5b412abc3d5a55b2d1e3a39161e",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "2ad132742131c28d4d992e548c868c8c0ee08190979b6f8af7a80fd1e1e1caaf"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000042.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.287171464605002307492340951457516338678",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "2d3de769a5dcf10a6ea151678af4e95fa8801c25a8ba59d367a3c9e95b069039",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "5911670a5210905bdaafbdc371296545f10c2fba3863caf5b82a0ed63a7bc50d"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000043.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.261345778175159243566967180077731266038",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "72b0a345ed92b34933c4902e2ea3bd1a020c566b119d621c759b97b995c5ebe7",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "4b9e00a60a4f02a313043dd632883a4dda51cc16ad2b96eac08b96efe1a2d741"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000044.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.203122360306413501502861460254553128438",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "5584ab2bcf7dcf92c1592165e7ce5164ea3e394c9fa9f98207282a0c737f7382",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "c0bfd77961572f6e1daf2fd6887d99142973ac0a5edbbecf615686913540014e"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000045.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.59580544742900990776739543889225563638",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "f9712af25792f0e7fb6a106835ed06bab23ffa2376bf6e85ec12611117237fca",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "c4d26eb1d77f5f0d7236d08541e74262b457a91a183116b089e1e4960cc3dac5"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000046.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.308814060925853992636164037476582276598",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "ecff1dae5f814c3ecf10ef0ec1f3fdc02ae55380f209c1135a35d0fe7d182e92",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "35217523b3348c75ddbc59787ea7dff4e584680c88e47f7f20fb15815668c914"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000047.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.304375780866812294136441426729028402678",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "99c5130e21f5c647770649d04e933d874ca2109c9d87af5540ca7569a04f430a",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e037139cc6f741c20737c8a3b6c43e25dd30ca9ef84f6aa4d674b3a750b03f08"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000048.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.49013565418878623586608085250793389558",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "d3cda0a5fa6ebf7c25561bed6ba658882b6a7c073c4f821bc264b74a4a94ca6a",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "2cc9153f27663a258747ba0962b686769ec5c2f58e8b2e90e5666d473dbfd306"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000049.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.335445591257698891706782511213145865718",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "1c0e0959c71b22c519dcc68011afe75c49cd224b54ed94f3d6b37776f1db76e3",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "9391e29f2e5f9867dc6290ac05e29904092e49e3b9b09d93499f7fef6288ccaf"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000050.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.21561955072650513783244413212735159798",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "b6c136498c754eaaf3df9f3047f865fe7b310c2bd0207f907a7f6dcc2c4d73db",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "431f5d3c6ad24ff368aa239f08d8d96b45b3f7e7b4565d847ff9798d6e8a0b40"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000051.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.335032519386798271729871051119279062518",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "1fbbe8a722e041a21df6787788a91040f3c28bec08f7db060fa6e91707cedff1",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "73fc043abdea3fc92a66f55fcd8c161c46560e2d21c5a72ab89ab7ccd11a49f7"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000052.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.277017483073548609441965302949357403638",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "5c5c47bbf8befd9c1cf2c18768d9d5ba1c699898ee02e1635b9fb8857d27dab8",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "3dea64b59d15c704bf48f7a27221a89b0c8d7b94b7a8355bde686a0c6fe121d4"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000053.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.122441527644705435856847043364556226038",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "60112b8ca48b308a0579c74742bd1962511f6f983f4586324c116e86406baae9",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e1f4917f90c7d02aedbe49e7ab873943c4fb9f3c8b513d1212d3dc6fde801f00"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000054.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.16070457812070317739652153767708179958",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "28ce458293d4d99f905b5ef33037e2a468776228c5749d22eb22fbf6a95ae988",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "2329edb171d922de092fabbf6672f45b29429a4f8880779f160f6bc7118056fa"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000055.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.229850157213262170028194657535692226038",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "e2d6c420ed065d3b5e46811f6308b1166440684fed81a3cc136d45d4bb5dfbf5",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1377dcfb3e0c7a6d9b315d916e70de9ee1e9c7520c4aed644ec99c079864a47b"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000056.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.237075986681136492414227751793956863478",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "e1b6ba627396393e7214fecb3938d98cd0a8fc111718e64e9a3fa8009207470f",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "98a2aaa05db6ad751220e94ee045b0a8006fccc4096a93f324028c104dbbbb1d"
+    },
+    {
+      "rel_path": "571403367/MG_5921678838/00000057.dcm",
+      "series_instance_uid": "2.25.141688359801061597120368160545921678838",
+      "sop_instance_uid": "2.25.194680939083195009954955940682079518198",
+      "modality": "MG",
+      "manufacturer": "VICTRE",
+      "input_sha256": "3e8ed13e0917de89cf16d3518f791e9c41925d8b128b50e90166a8460baf0ad7",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "6f01cc5a3f50a1c23cc40efae8298016362649e544ec4c85d12275b153c15f59"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000001.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.290013566961274940659623157622950706678",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "6184834056913ad0c97c87a4ef7f5521e902b3b57dd7315057a2a23d6b92f208",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "401bf900a11d14f0c35d59dda0ef9ca08bef10081b59d8e8ff1f2e6f60445aed"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000003.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.119649049451882799586094865484695059958",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "5dcd77ca9feb8dc991b31dd4ba0c67af5b08b725b1ce43aedafba2b960aa0057",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "24f4a6e5bbb0411768feea5de2f2d75d0704944e577e1fad13df4289275d85e1"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000004.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.51460991891304823813524676292189470198",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "dd1693940b8f3ab685389dbcd16e95bdff6ea762032a16710175b4f14528b5b4",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "c656c29256b16c1ff5f71e4fd7eac1132e8d6e3c1dc1423d24d37fc7d999b0e5"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000006.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.183692725010688178133210759116577422838",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "c038cbd20b17901393d78d2185208572fb33bc6173086c2379f01a51a7d9be9b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ff24633b1f22541075f8333acca2b696baaf26ec5597fa37433606054a4cf5ae"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000008.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.194985093622242395319047428101100912118",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "4b7f9fdc6ac15dd8bdf4e47f60d898c54d4d24680a5960f4345920930864f257",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "4306655c6121384695d13e18d7c6b52e0ba0f42fa36a996e6a4e73e6b286b334"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000009.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.98551067916294980070211488547958537718",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "bb1756e09c17a66f83607de7afb6f433967e54be246bb65d75014119b6316135",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "0396b3ca066c7711a6cb4e7053b229e80a79fed596e4c69393c2ed3ceaa9835e"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000011.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.168182579408312212096181575294438194678",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "f08f3a1538adfeb6cb49b9e57c49341257401b8f691b516758285aad10253636",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "8c16fa78b284f4cd70f7ff548ad02580a9e39d7ff43b82b06db843cc539a4394"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000012.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.69333419044416160479145421343177686518",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "78f0b030f5a86aa7c21e6149a73a64e26584804b89998e2f423ad55187de9995",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "79f45542b26fa5595ae9b621b9ee59bf870ce891eaa964c8f253418c73e8db56"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000014.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.8900033390523845547541600729353010678",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "0e7cafb75d5f9cd8c139f97a343b8742846423a4398a977f37900d08f1948cd0",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "490e9b50d6c6ae32aad9f92278351c35636f394142b0339f4ae35b4b918e3c9d"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000016.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.19207942169095944352245802198262988278",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "565619ea6dfb6b481192a5d605825318398da659a9bd667741e9749462b335c0",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "7aa9823d2f23edf019a3ee0922428d297418d49d329cf41865328f5264fa17d7"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000017.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.165873637029567132218909803626993663478",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "dad9137156978e2e13df4f349ef77f2ea53b7db1087dc3af18592a5d2a168d63",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "01cff7df4222de19542126d7ec6f04e78aca95a3ec2af13c184888c6c58f123f"
+    },
+    {
+      "rel_path": "6415974217/MR_4516115958/00000019.dcm",
+      "series_instance_uid": "2.25.330392673771081595614911641304516115958",
+      "sop_instance_uid": "2.25.213517586839033383605349194478848163318",
+      "modality": "MR",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "8f2fa9585e8d7273e97559b276619a32f08855cbee9dec331ca783e3c6272047",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "bc949fac1d0312f93240f542280f62f7aeb3975097f2681878dba0616cc9e74a"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000001.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.303202161022841681650052557257949429238",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "3e79c15ca8ad5708addb7a367e646e52c4df756c786805f0380227d9f43dbd97",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ddf44c216327c6ac3de1a6b577cb9c1b4c5e3d8661b5057a30750f76eb0ab1d8"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000017.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.119777198231763934152900607050325278198",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "fb037bc05be2bf089ab40239832f08a48a1933fe710ae6bf78bd0385c045a3af",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "c8c785f0b5444d244426db1f75c84d386ec10d867661c0158a5ede0fc3ad2eb2"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000033.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.98509548793870192415417279808504708598",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "4e30ff04b5c98a246797a3a3b27f6c05e6d4ac62a0965d3cc9300bc85f346622",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "92b524c33d4f4284a006737ef6ed4a5a648669acb1beb170140ec0a41ac3b2dc"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000048.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.25175676745422882758539350587001650678",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "0fe092c2554b1a2eb7bac4ef6f126cc8d4279a44c93f85b0f66d29a99f165cea",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "c0cdfbbcc530b3ac8a378404cd48f9a492926bc3d22087e34d5ac39bd68d2b98"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000064.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.227291673060172412337378004229632409078",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "2b25693a8be75e799ababd11bde8c8864fbfed4653c5622031fa6daa6cc016e5",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "7b1739bf0241f0c034d5c2673cbc867bd421d4603439463d8c64c2d3a639b38d"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000080.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.338423276768482185434988549140790230518",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "1ba231aeb269c99af6191f7b0b03deba36cc0b51e23bd590714f12860aac5aaf",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "b4d476f621a71e1ce93650ede334fcf057970e257058491c203eaed861debdfa"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000096.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.178850174933460381853161643040319323638",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "b7f94d24a0abb61ef483611a73b7602993273896483cad1a95bdee42ffecc890",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1b6aca9c9e42a3bf1b247c5390e1c177383d42521fbcbee09cec9e7add241cf8"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000112.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.53921407028693612535946352928803634678",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "3394164a7b82c13a75dd1ded242e88e55d058b77a6ea764ce107b32fa924b787",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "cf87fd615a774079f72ebd0a805fb476a733075e986defb21fb13fe26923c744"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000128.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.333011947712564485475355381045069987318",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "1313e3b7c02790093560cdadf32a045ac653d18a08c176ef9a2834e32b623346",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "5d3c742d581b5ef757e47635afdd518e77ad09520e6727d2b0a1df8502872288"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000143.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.24227007046434145577949702647793171958",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "f62173005ce35c26adfc5eb82fb2b93301e19f5a202066a085137aafd1bb2f7f",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "71ea43219f331d1ac019cb83a15883ff94324479368e11197a7f27a2d308904f"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000159.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.74752473638460626354337335909495193078",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "934feb3a9c1ecec36923d11a3d46af143f1d9621ab1d0d40aeb95fc629d3b76e",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "8933c9004f1f2d06de1fb429cb10a4fccf364d956c7c6dd58ef10f46c5670f55"
+    },
+    {
+      "rel_path": "6451050561/PT_0649148918/00000175.dcm",
+      "series_instance_uid": "2.25.266330404550956556941727606810649148918",
+      "sop_instance_uid": "2.25.128634092731488853029790047033800375798",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "7743751fc32001da397b62e2faaf83686a0717154f63535daec9bc58cd3f6f97",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "406e3cc994b745caa80dcd3ab1dc890d1d7f59913fc9b0d6924e83e89aa7ed88"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000001.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.319584446276766543802094593208189828598",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "adb4017ee2f1a8cd5aa24bb41c5c76ed9a23c18d018b74285a48107d522787e9",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "934bb676778d0e2cc3dfb68aed21e06252247d3515ee1c0bf3758a8b58794dee"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000017.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.112424676197635489378586740564237598198",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "2915d22d3e71f1e492370df00deac59133aaffb52af05abb3b16bb036984e97f",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "215dd5817f8ead43f907ba60f5bd926a474dee1907d43a5e58aa8117668f4ae7"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000033.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.335172046915379704940841977467056537078",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "e6ae484c4720dbaa327c506cb400d5dc04177588a269b98e4907ee14c5b44970",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "5340d8047a5fba267b1ce020bdfb6f03c5112c65d2f71a2d36d0464b44e2986f"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000048.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.16835466726830675902657767637044018678",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "e9c38c9aee6be5361472a2b69ae6150e31c344bc2c7b1133b36f51762dcb8745",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "faffaa0400c81515bad3e7f5936b342749591e9ba749b17f15b91a9b0c991dfe"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000064.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.96518423850798082787255002214317014518",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "a035c31c7b93d9545ecc6329cacaa8782691d946973f7cdee967d34cdeb8f3f9",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "94ff0bef91ae4dae35e9738289430c17d2b7427753e904a686c227e66cbc1f09"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000080.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.88028047149821214733828743867211038198",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "0e82f04d2a8da969ec5bc8ada24326c83c9a847329bfe14032fb9a4f853890d0",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "9092225936d723bc13f6fe7b282897e1f567ab70c9314fb4c88c0d4abf78694e"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000096.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.253032750546844055662670566121694412278",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "6c57f01af36c220c199739b6d5176cf52fb6bc386a7aa26050d8a89e22cabad0",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "07c33cb005d659041215c20bcae2d83c89e33f0fb682db69b3f4c06d69096692"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000112.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.125271735873080615090448018744446402038",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "ad7c1145bf41b3a4f1d6c330a556ede782907fa31da3a45f5424e646e62883e1",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "b662ac456e1961e376125e00d65e0a8b3557d12afdf2d72e3d777212d3194a4c"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000128.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.45538544528811851473921285593182617078",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "cb328f521efeaca885904eba60f5387fe0f077b24312e300e4241efccd7828c5",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "69a1ef0d0cd17e2074377418aa83a007a32804ae19337a5da73749e4c0deda96"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000143.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.327678994324132396369043250366780128758",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "f69a3afb08c78ce93230c7e2b31097dca5c918e17358ae039ef82148dc49b8e1",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "9c2a84da5e39f65e8afb9194a19ace9c64a357eb2a79529c7dc3a069619c8492"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000159.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.53516361762937312679076494772545371638",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "22de0eceb41193b3d1d814b744c23a30760e09260045fcb86e8a07cb6ac24592",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1d86859fb6b8e565fbd54eb1b7b49f30136c74f1c5cd641796bf4c2e2ce219db"
+    },
+    {
+      "rel_path": "6451050561/PT_2522889718/00000175.dcm",
+      "series_instance_uid": "2.25.207506439191056754055271263682522889718",
+      "sop_instance_uid": "2.25.130513972223152246387572165664162037238",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "cab5cb4ddb2cffd38977685d68febed884b133af91746cca6befade2c82926ce",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "29801963f70e808dc73aff1940c43a78945cc56a387fcd2870983a27b18580a9"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000001.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.242307836219102503656693385101783449078",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "dde3955c8fcfb0210ddcd8c111638a5b00e2652ec0aae3c95b7da6de70af6de9",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "b9658398376ed4de8bff03b5279080f907bc71e27e98c1a47ae622046aaa4a17"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000025.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.107355378288418369134918405443875880438",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "d520475ef8da77e8885f46916a31053ed7bed215f1b7ea8b38a7f3c76952aa1b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "899c39c4f5fec31609b0416db63d08b543092ce4bfd33d88f7012d29995ebd07"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000049.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.109069110777317974178263230862306426358",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "bd443889cd3844b6fe9ddb889f6bbe77fe0c09d25d02765c2a8719721bca224b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "6d5affe731499df3e2316ac92ac628856038a156b3ff86b59c30a47fa452996d"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000074.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.56018853392874176905907350730303978998",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "c75bac156efd9e34c76bc50627a0c9f51b0d1d624e513d7c20fc9d84ec76ef9e",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "56c326e8ea900c43d101120b9896db22062c3ad2aa02e8027ca3f836a92d84b1"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000098.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.101565514106062454737095866965399551478",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "571658b99a402556d7a6e7dd8a9bdb3f7a18e26f8ffaa6f3cc879a625544a1c1",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e5921ec855874d94be753d0007d85cc9bc773673e614b9db66790dac7036f884"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000122.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.178386830416599585726116951503645818358",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "3f689c54f7de3ed76afeb0ffe9fa11a4f5e34bf5ca0b9f2538f144a67a816ffa",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ec10a9b608a0126447d351b93f396d4b27bd13196c0101d6ab7efd381f67595d"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000146.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.207805929568176924677808619169188003318",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "69b01c108ee7a1589352ea8477a316bd00aa00b192ee863cd6114f6dd00a05bc",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "c7cbf4cfc37a47f64a5db26ce739868556aaafc835121df3542e691c46d55652"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000170.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.171019748623045894594483519445804891638",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "12734e85f828e5ea33d6200c1937145e4bb3a4d7a9f95c9a02440b94a78b910a",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "222d9c5bd9c427eada488fa8cd44581c1c3df5f34359d12358562f931d6d3b97"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000194.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.263836025884861153383066329753404947958",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "228947776a37d06b3598375227f2e8145e1be85addf7a9b1b819dbd6c62192d6",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "0203f928a41c26fbe40d668e1f5f85b1a7a1b41e1f4d39db21f8e6464573462e"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000219.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.200437274303315700256430579328493403638",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "8551266eca877b3fb9a524d81060d8a24c82168779249d24c20b4970b6619fd5",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "765d62632ca9c3c141c7c76defe107ebcd2e718ffef6fdc950a6db53d37cfca1"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000243.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.269085094079386389694021167967958056438",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "91fadbfc09e875b19dbaa01978db6c6c120b20474a7773cc0cdcf1922fb75c41",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "35617d237099fccd9861742e5e5b14cebfb64fafd37eaaf9ade1c3ce8448d59f"
+    },
+    {
+      "rel_path": "6614238035/PT_8839280118/00000267.dcm",
+      "series_instance_uid": "2.25.316416899981897317300566138428839280118",
+      "sop_instance_uid": "2.25.181697728583454808978191972997256560118",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "98f04df65d763e39cd7c136e64374aae07b3b09154b70faefd684fafd1a9dd7c",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "2b9824f4274491e9185a736f2d6f43583a2a14fefc6b211c286c68869e552956"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000001.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.152220879628080010179506683178594713078",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "416c853dde04ce8ab7f6534853747c06458d378027b582656155f1bd52916478",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e594746d88eceef5ab027c6d5b44b8f289b992a0ebc9095e184ac5e43a1dbc0f"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000011.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.75222900756909385141841202307608985078",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "bc3336a7dd9a4294a840ca287ddc1a5da09d1e001f614567dfeeaa48f717ee2a",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "40c8e20b19d92de692b2c4b4bbbe346bee6b10835e78869829b9e93067e783a1"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000020.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.168641680068647931653983068649411952118",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "f174e1c879674943883e914fe5e8de964509947a568c94b5eb25af0f5d0fac46",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "460222e53a8d9062518d0f20b6c23bdbd90713f7aca73398792fd84e640e78e1"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000030.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.78185349503618748123962937830444482038",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "7b680f2b024d9be09a164941089256aa70e8330b152abeba71b6fe58844f48bf",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "69191a74ee385ffc3ab66428f5699491d4b4d4d62de79d781cc6a00c6402c381"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000040.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.173531338022884271795200242055380581878",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "38fcefacdde6891c0f05ef29de026976ef5b463c1387e91d0234bc6be0f09909",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "aeafcd472e411def156612848c9918a215c92eb4785fc5144229f7c250ea679f"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000049.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.107028966973957476633110139658326097398",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "55c8e36f8fb1c6b4e617dcabfdbcb036a684c72fbc32b270507cbbc61adc1b0b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e7e4bf2e8088d4ccf666b8c81e592031ee0b40c15ac5f535af02220b796ab5df"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000059.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.171326238412183387899925576572762439158",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "6432d7f860280534cc09d2c009357716fa37e68619150dae73b7069a914724a2",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "93e71655f54610e0b20c119507e7fcbdf0dc135341fe20ff924b066baddf94c2"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000068.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.48841900570736529332379089670441123318",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "2ff3b151f5c86666ac9828389a264f003c3bc8fdbd4ec54ab3710e5a5469c38c",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "2b43d6ea88fbb88f688447c8fc7a4e73c14e841062891f9202ad329dce6a8b71"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000078.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.104718092616469486419966149421652622838",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "8632cd47e8912bf22677c0525d8d93b4261d950e5953ae4f7058d70f9ca14116",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "31f6923b97adee77c74175445b17eeea7aed8ff600ecfed605ffbfba6299cb98"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000088.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.146776874104955739607798121783717641718",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "d4b0d762446f7bae6fab51ab17948630da131b8e198371a471fea6eea32b8fd8",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "a9bac2544fa4de8efd919ab55bc78ea71baaae3ff26ddc520dfbc7cf58872668"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000097.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.205771767094945441518822152565738290678",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "132d03fb6a14aa3d6d7409c55727291e1de3a86ea0b2bbcd4ac8ce9d08b4f1d0",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "3593e503e933a0097b42cf3f1c0bcf87d8e6e97319f91a03dfdf4032eb71fd41"
+    },
+    {
+      "rel_path": "6670427471/CT_0372018678/00000107.dcm",
+      "series_instance_uid": "2.25.10951537720107263456062230200372018678",
+      "sop_instance_uid": "2.25.194949299922981700976609416815218114038",
+      "modality": "CT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "e3a34f74fb5e6d5e707fae2f045b95e9e1b0f97da6fdaf70d338bbbf7b8f382f",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "7b9eb8e36e888834c649fc003059de8cd5cdaa048d5d3181f799a4dd2e506e97"
+    },
+    {
+      "rel_path": "6774825273/CT_4624291318/00000001.dcm",
+      "series_instance_uid": "2.25.232511389993471801710506250184624291318",
+      "sop_instance_uid": "2.25.67591592645229809873011613207677746678",
+      "modality": "CT",
+      "manufacturer": "TOSHIBA",
+      "input_sha256": "e44386aa8c3550d26b30972e1d4d7e714ea1646ece0cde4b0e502c5cc3e7eaa9",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "e068351bb3f57e75da05ae8f36d7ed21b5197d3039e0c1857869929a1c03ce28"
+    },
+    {
+      "rel_path": "6774825273/CT_4624291318/00000002.dcm",
+      "series_instance_uid": "2.25.232511389993471801710506250184624291318",
+      "sop_instance_uid": "2.25.64623095620594107951357986539673599478",
+      "modality": "CT",
+      "manufacturer": "TOSHIBA",
+      "input_sha256": "341522720629bb7ba188dd6df3a0e9f5ba3392cc43502f5454c0c62d6eadaa20",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "b65a6b6ff1f37901422e51ad1488ce4b10f41bb35fdc7f4534ba4af1319bb1b8"
+    },
+    {
+      "rel_path": "6774825273/DX_2419885558/00000001.dcm",
+      "series_instance_uid": "2.25.180851584880449280706308626542419885558",
+      "sop_instance_uid": "2.25.282160275799299649284437225212089056758",
+      "modality": "DX",
+      "manufacturer": "Philips Medical Systems",
+      "input_sha256": "1d5534ba1e7bc69c99e94523955465e86bfb1cd331c339f1b7a785b06acc9379",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "f7e1b582d90b303b41de5df4ca8ed524baccd53ff608145f9a0ed3b317d1f599"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000001.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.115269411305748471549807180195141631478",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "dc5ea53c882a8e3e4f3a5d597d4dd229014e2eae563bff1ead08d8c1ef97090c",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "d2d7d8d9af1078ef8fc86bd1d60070a4a6eda24281310a0bacc0b98b810939a4"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000014.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.61277873436892829960307314000458792438",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "c629516e2d4924a4e02118b15a490d5e862b442922b64b874076261500e84b3d",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "2518883dd9304900a8d1aa6fe58e3279b8d1d0be208f1a1f2b6b4e3e5e38ab16"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000027.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.2710042030599704251605323335335525878",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "225c294f93817ad88fd946b42dfc9ed3f2f6ecc2f4891cdf716f8356006f10cf",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "afad3d2ba4a434de7d5285e1ec4396a24984bdff746ebcae2a85dd69b4ffc51e"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000040.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.314950401747109162121933782681470483958",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "d2d03edbd201ff924eeab8f5840a102b44f78fd207ee4fe7b8bed1d5dd716fd6",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e8d267ba4dc667bb27ac81ff903b20a94a6e719130eb659d83e742267ca2b1fb"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000053.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.112168047860294723191365804386984508918",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "b3d4183972f37a7d01efdda1368d3b94c6211b12f286a2e7fd9cca9a82dc0993",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ce2e94d4cdf279dbf5e966bc3c7441946d3718b91d33a3c65ad7a9c7fe96bc07"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000066.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.88007134876325574661920927941519850998",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "39744822b62d4d08485464ebb684ec4bbb047490784fa4255bf4867ab1591134",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ffec64c38f1f1d91072e1217a6dc38fb45b1c9f553f9ef4636267a7497a2bdf4"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000080.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.170502751190671251229342167913683598838",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "0a9cead6874a419ed1966267211939f4ce76d0860153e5e1abb96bed3fcf03ce",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "d25759f11afef3bd28886acab380e484bd02310c1a5827fd8ccc39ca1ce15d26"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000093.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.72081487475304676160746290032557014518",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "2523170d906396d7f61714bb1563158bf2683e8554056bf6b2fdc60fa70ad0eb",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "109851d63e338dc24f2f301ed9c1beade38f840e2eb1a64563e5544e5a20043f"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000106.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.35846090416311684898007620691196231158",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "60defbb973bb0529b0070fae7c1d4a0787c430f760e2631b93394ecd767d70b7",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "99887c549eb6afcd4d7935bfe2a01f8f7aaff6f94362169e442b4fe26354321e"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000119.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.256407578314172851380071506196551024118",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "56a09cad0dbaa50aec434d1d9c441ca9d83d0aa61288c03ac484c319dd67d25f",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "892e8edf51b99c4fce8bcf025c1da8630ca109e546eda5ece3d255a9fa7311bb"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000132.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.40195342977558542275541430004916796918",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "60595a0254789c3f2e8dd03340453c30537c1995f20a3cc1041572148e615f4b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "5c24411f2f234747553b45e0d79b147ff654224fec4e96482fd72ff33c9d81ae"
+    },
+    {
+      "rel_path": "7255997752/PT_8527472118/00000145.dcm",
+      "series_instance_uid": "2.25.202638583638721901745794769668527472118",
+      "sop_instance_uid": "2.25.127636264730645702826975420847446670838",
+      "modality": "PT",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "9e1336a0e939938c7c4c052a67e9556bd21fa0d237aa651288632424292fdb3b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "20f9a37ca59405e8d6d3571926fc1ef9569c642efc1a8c465effcd46dc2fe3ce"
+    },
+    {
+      "rel_path": "7361647728/DX_0324494838/00000001.dcm",
+      "series_instance_uid": "2.25.202866841559488747587688521660324494838",
+      "sop_instance_uid": "2.25.69818187252561626254397095131741797878",
+      "modality": "DX",
+      "manufacturer": "Philips Medical Systems",
+      "input_sha256": "1806cea8261176900fec26175592a8389ccc082cae152620c9a61cea09ed7d40",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "08c6545ac6127c28e315b613467f976ce6f5953b66910e8c698d4376573e0e08"
+    },
+    {
+      "rel_path": "8155012288/CT_9113512438/00000001.dcm",
+      "series_instance_uid": "2.25.138715083337522222202549203339113512438",
+      "sop_instance_uid": "2.25.204987248641306758334005816466351963638",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "d4d01e51fb468bfb1a3f6353e420d022dd7ce56809c29a741231472bf5f347a8",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "324b51afb5c13072b1810a296ef8c8c2ed0070044e4cc03db7076d8455bb8747"
+    },
+    {
+      "rel_path": "8155012288/CT_9113512438/00000002.dcm",
+      "series_instance_uid": "2.25.138715083337522222202549203339113512438",
+      "sop_instance_uid": "2.25.24988633710936769796383448125889166838",
+      "modality": "CT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "668ab4275ebea50ab5795dcb1df82efb3971c1d60ea3a0a15c5084282f8709ee",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "c78426356ea2a887d48bdff00c7f937cb467e456ea17c077d3282aba82fb1cca"
+    },
+    {
+      "rel_path": "8189244869/MG_4420295158/00000001.dcm",
+      "series_instance_uid": "2.25.98808384350227182643204424654420295158",
+      "sop_instance_uid": "2.25.115351896538023697294319194737275944438",
+      "modality": "MG",
+      "manufacturer": "LORAD",
+      "input_sha256": "4a33fb8e503438c248df56b36dd0f1649f2e0f8940c38968907821680483fa35",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ce8e129c6db48897d9ea37b7115827f5ce839435e0f3bc48ee8ab679e2864cff"
+    },
+    {
+      "rel_path": "8548156246/DX_1055651318/00000001.dcm",
+      "series_instance_uid": "2.25.267046995551041197882743054101055651318",
+      "sop_instance_uid": "2.25.56598319458405629701989395893226946038",
+      "modality": "DX",
+      "manufacturer": "Philips Medical Systems",
+      "input_sha256": "deb349191f6bc1f089b8eec7eb93eaaf4cdf30e046b6f6c89c8567242867f353",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "b6b99958ac26b06e84a4f4ec419216cc33f5620d5f5b2b80259ca7fb19f28e33"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000001.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.150034067065709856207313671542873374198",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "ac084613fe51c4db7ee40a9fc68519eaf770b5105312c205bc3b16d5e5b1de99",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1069b0f1b109339c566ce118a57592c43d7cf53dd522676ddef8bb651bb65148"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000006.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.228998231835097163316275422211079781878",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "c5c210404bd895f4057becb3750c22e98aea88e20b55e28f07aa2d437d609b60",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "558495a7c8996940bb4539484db0ba282e46051de5242c7964a610fc4b863e98"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000012.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.265982168254567860042842447473100307958",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "4ef1802d50f1bd16764840f9e1b0eeabb8342e09ce9722c4cd85a41caf766cd9",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "e6643a807ad6732cd6a8a4ab9d570edd3cc976839e1d038b040ec9791783e5d4"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000017.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.143767205373387875080470634066481888758",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "f881de7c3a2d518d31ab5f25c9fb1240d70664dba1aad92f3d2aed4b83973e14",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "b69e7ef572d715f16d0c423e1a53ecd4d8ef9f7c5d0a18e43fa97485de6b5969"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000022.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.176616027901536893223795056539189493238",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "d6cd8922a469def32a966687f839f8cdfa62a4c67e5112b0b22ef16ed860fa46",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "aa284d0f35056343bae637845372d3c25cc489de19f48ab33fcd46b3de9c31f7"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000028.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.130609786405348059392919230072781127158",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "52e02dd0e61caac5234a8df78ccf8f6c350ef90e9a7313876923f3e38b20af44",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "771dc2df0d55fa1cce75525d8f7f9d6c45c64a7f8d0236337224f9ffc0d8bf49"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000033.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.330659408848973493932357697915793817078",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "4d39b792a1b4a3b6025a228f0c0b9ffbb8438b821ee181f50e38ad12af844f02",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "d5c6529ab79ec5a37667e467cd99dccf9595da7292aff1a17b49ef6e847d2f9d"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000039.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.263266373415679529939160308911890349558",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "af50682392a5f00ea6464754f00a68ff2916d9e5ca368b57e7c8bd1e15f11e70",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1193c9051d650ad6c04281f1725ba0b6902cd8a4449f3315c10082eee13fe776"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000044.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.82648214457629435418962513233507368438",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "021f2f1513bc7be5c18e868e5dbf997720acbfb9ac7ee13c0f27cc38c0f2431e",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "0b89fbb43d78fc5dd360a8e35dacf8f04b4cadde404320b7689e0ac790c46c5c"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000049.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.266099671542392765481927432505843629558",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "ff52beb8fe22de40a16fe385cc8326021e4157368c52516ac56b83992c4077ee",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "59762373e18dd6869fb83a8917278df02ebcce9f1b6973d10fdd1f17ac931107"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000055.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.205363347105606846572492497404915465718",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "3ca4cfb3b17ba05762e7d03bc198772abfedb4dba5f40ba22a0d972088d81c3b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "8ba9cb7844853428070a02fc4ffdd9a1bfb07b1208e0ec93f836af88fcb94a79"
+    },
+    {
+      "rel_path": "8732322741/MR_0765050358/00000060.dcm",
+      "series_instance_uid": "2.25.183883987340968988242665205760765050358",
+      "sop_instance_uid": "2.25.8514162924659247945656132079955066358",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "dc04f885e0691b0e082f8a8725b03bd9a4f4b82bfd6a4dbb90695534d0d9761b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "41f22c0128e7178fffce4a5606822df7505c2d7612b8116bbd784954f97af59c"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000001.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.56921499452258377932788908988762275318",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "9b5826bb7ef6ad120aea02bce82793f1ab196727a78a3b129afb3bc3664a6458",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "b184c74d4169e1b92b611f9f7a2b759275a285de11a09edcfb6d6501f5c1435f"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000025.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.144763419892701422290050167730287001078",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "f6b906edfa21aa40887458b222c941e852ca42c8ff8fd472cb596f92b484fbc1",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "12f91c79c910bedd893662f1038ff82b693ec6f004573f1c86a55610fb58614a"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000049.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.202587367781486993278722487084992019958",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "f25ea3107e2b261f0323d0767b5230203c53f43d0a5329c6b3c2e96a5d5dcb12",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "928035e50d9ecde515b507595cb48fbcae1ca0ded5a605c901f39e590e06c4af"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000074.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.271470144219465109607950361857254604278",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "7f7e5d1de1cf83f7d79db49073598b68c528fe8f5b2f3278846635e596a56fe2",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "76d4a0441e793723438ad28b7fc5cac9df074a96a12bee8020e7ebbbb5b6aa97"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000098.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.109771310377822711573676498861854146038",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "7e28faca3f348387960cf329929dde9ec079d5ff20e53073639fa0fa30d0b84e",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1cf3a7f676f37047b226afa0b48097306dadc9617b25036de945aa075ddd01d0"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000122.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.154518481683783610830817002932707900918",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "4fc73a7841ab33c85a9254dc8bedd917c689b10b747b026f28546f85c940f1f6",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "b17ca73bd308154ea8ca2460538cb2917c54980b0b47cd44a8d7c694fa2c7742"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000146.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.99107591882807177342056571189182709238",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "9466ad3bf84fcb950f474243273c3ae09d75d42cf2a21600e60ce6f5eedd4f30",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "0a60f153cc695eb80071868dff34d2fa6efdcaf51f2310205da8abdea8270614"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000170.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.71809961866566352850127639786322247158",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "1cc7925379e0ba2800a01621445656bbf8f17266cb8bdda41c0aa1efec20bf81",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "da7ee24b9bde7ec6b4fea5db49e3b1498541113960783ce86b74fc4ecf938eb2"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000194.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.221271119048601276753819279927803493878",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "1607c0d8a089985a79a5a0c9976e9d55f187dd40ead3ce98c1d9b093cd37e4a8",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "8f42b8ddef1702bea4c36d85e74ef22dab401dc694fec2b2e083579bf6af6594"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000219.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.6042774686762233612477749606219365878",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "f7712c16b10688d2c17d6ed4dd0f56bb7f4238979fb7209d4cf0d36cadf85647",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "17e11f8e0ea90e7a097fe379bb2dfe4f2e699aaf980ddb9ee55adfda3a9e0352"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000243.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.93468091660960584659979316032291061238",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "8bc58efc88d2fc327689466014086ab72614d30bcaff68ea3aeca47b0e346995",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "6c12702b4b99dcbf37b517ac36568477b89cf35bc4ff509702203ea087850b08"
+    },
+    {
+      "rel_path": "8834647487/PT_9150166518/00000267.dcm",
+      "series_instance_uid": "2.25.227201128343065423053124286429150166518",
+      "sop_instance_uid": "2.25.183450025776599044759182143901232905718",
+      "modality": "PT",
+      "manufacturer": "GE MEDICAL SYSTEMS",
+      "input_sha256": "bb85e9b2b219d8f7bcd43ac21bc4211aa2c514c64e607218e743f04dce62a44e",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "6647cf9ebf8587ebc9181d08327fb8c4187cbf409bef10238f635d4327c4272c"
+    },
+    {
+      "rel_path": "8989193730/CR_1980246518/00000001.dcm",
+      "series_instance_uid": "2.25.128855358766913815043891168771980246518",
+      "sop_instance_uid": "2.25.303864294545422142998623082114092482038",
+      "modality": "CR",
+      "manufacturer": "FUJIFILM Corporation",
+      "input_sha256": "a61e420320e9bdc3aae13acf5a93b689c9aa6384c9f5aea713846b5baa5cc1b3",
+      "expected_vision_093_outcome": "REVIEW",
+      "expected_vision_093_output_sha256": "10e08c6fc1a0d06c12b276d94ebf6597472ed1feec8c3de12ed4c780685faa77"
+    },
+    {
+      "rel_path": "9189822998/CT_3557943798/00000001.dcm",
+      "series_instance_uid": "2.25.110315838408248624082166543013557943798",
+      "sop_instance_uid": "2.25.258572809125074119746704036460200836598",
+      "modality": "CT",
+      "manufacturer": "Philips",
+      "input_sha256": "9a61402241075ef964c6c05e9decfad2eacbc5dc81d763a9cd2273695d3ecf29",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "d00f66022c6157cbea80fa342fdf035b1e683fee89603ad1ce2e029d8ba3ff60"
+    },
+    {
+      "rel_path": "9189822998/CT_3557943798/00000002.dcm",
+      "series_instance_uid": "2.25.110315838408248624082166543013557943798",
+      "sop_instance_uid": "2.25.219314049538904298508528211265228226038",
+      "modality": "CT",
+      "manufacturer": "Philips",
+      "input_sha256": "f20f18bd077f0a7b1087a6b3e35caaf04df87f7edeae8e1d82b4d3fffedfa8f6",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "f2d79a5a2a523d38fbe6c8648e77d7c47de15cb5983f479b95f4d97631628007"
+    },
+    {
+      "rel_path": "9189822998/CT_3557943798/00000003.dcm",
+      "series_instance_uid": "2.25.110315838408248624082166543013557943798",
+      "sop_instance_uid": "2.25.127901310664112797028743983101703208438",
+      "modality": "CT",
+      "manufacturer": "Philips",
+      "input_sha256": "a1bffb180f420980ddb9e30dc8e9d62db4ebb0b87b87ea152820656780ba2508",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "a8d94c6105c67e62fa167f29771fa0ff5f4d8f7340a99434dfdc3401c7748580"
+    },
+    {
+      "rel_path": "9189822998/CT_3557943798/00000004.dcm",
+      "series_instance_uid": "2.25.110315838408248624082166543013557943798",
+      "sop_instance_uid": "2.25.181036987099689723254032966708320910838",
+      "modality": "CT",
+      "manufacturer": "Philips",
+      "input_sha256": "025255a70236f3918a93a2cce0af2ee5d43ac36672b881f54d5c4dbdd8230cba",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "de29446f4bc373ba5b0c02dd0810bad92cf8352458fd03770bbd2d34cf4ee784"
+    },
+    {
+      "rel_path": "9189822998/CT_3557943798/00000005.dcm",
+      "series_instance_uid": "2.25.110315838408248624082166543013557943798",
+      "sop_instance_uid": "2.25.103697504345240050929569337896966143478",
+      "modality": "CT",
+      "manufacturer": "Philips",
+      "input_sha256": "a79823a5f5c680d0e6b65830a1c0677a6cb46329d7e1b6eabfdbae8dde60bdb7",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "18664848aa196e12ec11af2e3a82b7a5b3d345ddf1a28db2b6ba0ebdca58870a"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000001.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.226632374717387523938128264343752130038",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "0b2d59567ee659bf948e39362b96b48b61350dc1ffb75d11d907ff2fb7b5823c",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "93ac61bd86a18a577f72712a0ce29225c95220e2fd388c5244cc49649e922e65"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000003.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.144114175999880406606562736539424112118",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "e1e6a0a4a6c302e545b9a32b64342eebef519e9a1191c688bbded57de7304f05",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "276913790ba92f412269149e44dad84a7971fd99b72c12540158b963e57f6cd5"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000006.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.192626858253766628170176769161795583478",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "cf1d3726b886a13ce820f9b2236845b309bd00d28ff920ed983ed706b7a67dce",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "dbd89187bf9bde64ce18794c8041c9cd6baa24b47abc16a2eb574cd5fb5ad0c5"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000008.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.149602779055683956573902703823945317878",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "38abaf7067c20955f2a33427dd287550c0e766890d67066e0da79dcf57cef57c",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "934d32de3f175b561c50253376a9c0aafedb10c62a5beb615b0de355c1cf5b38"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000010.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.51409716216807217076877510582971514358",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "0dcdd6691bdc503513d6da3887f6fa65bf0a5f5d598ba48101340006ca4a0dd2",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ec72d96070162588c1a8f27b3803b05c3fc073a0febf6bdf179d6f72db91f1a3"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000012.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.245339754595549249037947267766592060918",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "34bb88a08fd0b65d7777d227bdfe4aa0de4de6f0b45a50b99251f4f6d691f735",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ebe4f5f1b11d3a059c65bbef38e127d0f2c74fa3182b750d894875930b4b3e2e"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000015.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.141153497210321612289742840788439121398",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "e0c57ef1325c3ca314224c5b3795d5b26619e5629beee0f8794aaea4a72c1229",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e7a99c8d1313f4997440c8153ab8cd5d443552b259a14ccbe8402fb746969e33"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000017.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.149321179189941131981437346496705576438",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "7bea1f2c5d58885d01614b8655160d3c7b113758d1575546b24ae2694a9084ba",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ac493f695b2d5d509990474fdeec6960d9304d526d11976d1b9a73df1e55d06a"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000019.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.210021724980817234258658413085101506038",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "f6de468e492d50219b7b46b962fdd84b9055b9fa797694a5e4e38056a486c782",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "36aaa6b9d8e141a1a061ecc90db216c28adf9d891778ccd06dbfa0ba18bf9a97"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000021.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.272464874399153952075165080475150171638",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "68d6dc6a81e2a733d962cdacd12429aed77b64d8dfa2a572076db74d41ffa4c7",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "671705c605fbf64d0e3bdc1d96e92c7fd77c07f865a570b26ce5eda9cc5c764a"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000024.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.11855366655957802449504060070008831478",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "8f15b86099f648fa5d91a3b1fb809e0ba45fcd2c02698a24918f618078ee1320",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "8013459267f78ed21227d8fbdb7391871ed30a70594ba0d789cca97fbfdfac9e"
+    },
+    {
+      "rel_path": "9894340694/MR_3891665398/00000026.dcm",
+      "series_instance_uid": "2.25.115502210980931447594853482093891665398",
+      "sop_instance_uid": "2.25.218755985376912823937960310129609522678",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "535549d30efce2e93c2302a6a7f4f31ea1a189f91c420f83a1ba272f232cf57b",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "fb3daf3b09224bd60447ed89dded6fffc80eff2abf3746ce7d3c6502bbc96d17"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000001.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.125709270231439139324234861468418948598",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "fbc176f19ce93f99246b50e0534112d78b663d5fd5bc5949669f9f7f9af5b94e",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "4811f2d4fd21cf08ed2dea5e5f9bca78dc6a455454c013f22ecacb088f78372f"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000003.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.151594172582226989558169423532124650998",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "e931095ba4079ce7157a9891adaf1bd7b107c15651f97941666a3f72b6be899d",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "56f732ca365a71d08fce1f0da0531d50fb89290e6ea4be07b232f35fdd47f32d"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000004.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.330097873305041456869838135651991141878",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "a72bb67d2713f7fd4dc979ee97f2177eb14fd623b969b752f4e554bf456ebec0",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "ae1256a4ab953d338858a0fbb9bc5e7bcf6a473bf5879acb3689bda7f4aa9f8a"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000006.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.25238287593131405293966024629194178038",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "2aedc400b1df8eb1ccc482973a32c40cfd6b240a400fa07d2c48cd240be8e8e2",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "773ec9109196ff7c258155ece55def983214e4ab26c320a8a6e71282580b4104"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000008.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.25115885628018242890887630774001581558",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "57212d573f9711e5c21a17f37a7f6e9832b4e6460a96dd2d1172433e0d621271",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "4faa57e43cea1efed593f8783ed049d49473b00614452616c90c4978c2611505"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000009.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.215936296667815476151783317547725209078",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "fb46d95877366966026070707fc95d19abc6ef70b084b7237455815ad0dea784",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "5ad639b7b318b1b5f54d071f6825491ec96ff65c4ebbdcb5e3717bd5ba25e225"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000011.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.280223205854666146785884894848897105398",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "3da54e7cc294e3b529108c882a7d7763d12261af52a5d75d62da5f33d1baafd2",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "a5ca39c04b65f58a6e6d367aadd4c4dd82e3522cd2d6f2dba1c19c156e3d4780"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000012.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.257885471935575433198379941370296647158",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "30e19d51f0dbc1e77bec559fc96f8a66989123b2a2ab0c5dd6afc2ca2a58aa78",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "8271d769f1e583618f93e4ef32a73be33cabdf66204b580ed00b81b4d6950cee"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000014.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.283068377906095395124927162874687241718",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "893ae430579beef364782b6a881c00a9382e937b36ac9df88e17ee846af89432",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "dddefcfb98a9bd4f97dfab218df48cc9767de43c4f06c6164d0652c4de9b9cb0"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000016.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.27908464044466459706026864486959922678",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "e89f1746477acec763525bcca8bf404c2a4fd79e9023b352ec3fffbf1105e11f",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "3c6d77af27a51de1079d57a87221b2f3eddc6af375b45aa281c592ff65a79ea4"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000017.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.327973631976298568300903001286487162358",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "4e92800f7670e690a3dc9833c5e2009c810e3c1b8762d92434c8ad10b9136215",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "dc64907c486a719db64e971e7bcf09ebf5e7bbd87225c9c3e2946ba34249a080"
+    },
+    {
+      "rel_path": "9894340694/MR_5854530038/00000019.dcm",
+      "series_instance_uid": "2.25.328152866283087275369945684055854530038",
+      "sop_instance_uid": "2.25.313784095850961053947869861220166778358",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "0030c68481657e22249ca1302f8cc15ba01f8cf8c3c0d80ed900db87560c5280",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "022aec2dd8f3d704285f2274ca47105a2bafad9bcd31eba02e0ece9ba5b8f4ea"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000001.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.194456313773679443132940852680405401078",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "b70f0fef877edbe5c20267e60afe042ed6414a3003dbd5757c10baf238d96abe",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "07850c3abcc7ab1c0084d7d4c52ec1169e65cc8944308d3149a2f27b3a2e1ec9"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000003.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.171263885848284661866239457483848007158",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "2656d159df88e3056dc142eaa4caed6ee8371b9a3602cb927405c2b5db7dde00",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "2282109cab9b0bb05937eb659b6598fcf10814680717540ebb16a779da3aad03"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000006.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.136434261806639142737941196193681489398",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "213674d42fba0839e4af3b9d5a3482073f37904e8651a94afb9601eaac2d5374",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "c6169a9d4d5efd9c90f6e989b00eac01989abd87dd0d8909db020df43f499e29"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000008.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.229090195924735595646137128351432293878",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "158d01bf662a79a8610d58ebef188720981ba9a1d68584481c5618c4280ee4a6",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "894a40b254d4d1876dd2c2f9e1d2cc94c62ea407314030fa4a1aaac3e27b12fd"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000010.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.239335857116724299817402522177162034678",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "1beeafef08690de20370895f636c39afc045d500a6c368acf5a9418b6f05b7f2",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "97829292c57e04aaaaecc3cd15ece49cd376764e84027381165ff81b9cd07a29"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000012.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.317125828826385203737492914083808787958",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "0fe7ea0527a921f575b0a68231c191d2f0ae8222b3eb9ba770be6711039c96be",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "eace6669333ce3875806ca72fcc70371d5d782248250b12b952e2deed4541982"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000015.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.280165381972536736101735622732183879158",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "a9f98b554afef2e07ce05f671dca7e875da95f0324230999ff9450319abfd97f",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "1d027e9b558bff34245f7045776d7e445df74cf46ca3215951502c9c9fd0e877"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000017.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.207865620858096796572394971116810649078",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "7eb38f68c0511fcd066d9f8877b9b1b0f87a6c56f6fa2ac0a6137586866bf1d6",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "8f22b1b2d43151f6064cb7b5effbc1b16c7f14aa33a4972fecd7cf121acb6163"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000019.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.155229061247037481965217540075882659318",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "d5028683eeff1e7d166d8eeffaf5d639a483891f6816dcb41ae8c212498aa1c1",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "33f405e84caabd2681031277c3dd72ce4e37019f2e9f70ec2e7cf2e02d58f087"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000021.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.284997395100290947796206485430767042038",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "e74582754dffb4e1787f6af5f1ee3f47c23c8aa2d1de4159110772edd98fb588",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "e9517651920f681f04c855ef85dc810f651f9a1f88b218ba85889bbc7807b589"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000024.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.167817597051353687715580956539826585078",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "0d20e982e2c10bcbec0bae9b511ac989d14aea7afb157f315eed39aa7215fe67",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "00d34d999dedc8b6c97920c6ac89bc214dc0bfc08fbd4514b31707a36149b4f0"
+    },
+    {
+      "rel_path": "9894340694/MR_7944974838/00000026.dcm",
+      "series_instance_uid": "2.25.59670009184012098066750173717944974838",
+      "sop_instance_uid": "2.25.120408444655188209549460288797429841398",
+      "modality": "MR",
+      "manufacturer": "SIEMENS",
+      "input_sha256": "c9e5a973bdccb690a8f95766f36c172d6c06ff395123145ddd3e5f071f86e728",
+      "expected_vision_093_outcome": "SCREENED",
+      "expected_vision_093_output_sha256": "137c02547258050f486d2e83afa0235645898f5714d1e2c78d2643f9ddfad6bf"
+    }
+  ]
+}
