@@ -1,0 +1,134 @@
+{
+ "actions": {
+  "(0008,0018)": "U",
+  "(0008,0020)": "C",
+  "(0008,0030)": "C",
+  "(0008,0050)": "Z",
+  "(0010,0010)": "Z",
+  "(0010,0020)": "Z",
+  "(0010,0030)": "Z",
+  "(0010,0040)": "K",
+  "(0020,000D)": "U",
+  "(0020,000E)": "U",
+  "(0020,0010)": "Z",
+  "(0020,0052)": "U"
+ },
+ "admission": {
+  "admitted": true,
+  "allowlist": {
+   "sha256": "02a2e6fe5db210465ac3396204b833edebb46af0cd0d1faaac7c9cb0d63f5721",
+   "version": "5"
+  },
+  "combo": [
+   "1.2.840.10008.5.1.4.1.1.2",
+   "1.2.840.10008.1.2.1",
+   1,
+   "MONOCHROME2",
+   16,
+   0
+  ],
+  "reasons": []
+ },
+ "cert_version": "1.0",
+ "checks": {},
+ "input": {
+  "name_hmac": "e63fcf5391b77c97",
+  "sha256": "498b4208983c7e8ab9b17fd2bd477591ae864e98fe07c4073387ec8b6e6159d5"
+ },
+ "key_id": "bb8afd4d85be1d13",
+ "outcome": "SCREENED",
+ "outcome_reasons": [
+  "изображение сохранено; проверено детектором — измерительный метод, полнота не доказана"
+ ],
+ "output": {
+  "name": "out_ct_vision.dcm",
+  "sha256": "4146c52c9c7f68fe7ad33192162681bacf34ea6a1a5e0e179640cf3da578deaf"
+ },
+ "pixel_check": "checked_found_masked",
+ "pixel_sha256": {
+  "input": "072423688c37ef59ea1ca5353f914a494c940913e000153027c7e0864531d104",
+  "output": "b88c448976df19279907e5546c8fd1cf9cbedcca7e1011c97eadd18effe562b6"
+ },
+ "pixels": {
+  "burned_in_tag": "YES",
+  "checked": true,
+  "deferred_lines": 0,
+  "error": "",
+  "ignored_words": 0,
+  "kept_annotations": [],
+  "lines_masked": 1,
+  "masked_lines": [
+   {
+    "box": [
+     14,
+     15,
+     103,
+     15
+    ],
+    "chars": 17,
+    "reason": "совпадение с идентификатором заголовка",
+    "text_hmac": "ee9452633f59e120"
+   }
+  ],
+  "phi_in_pixels": true,
+  "review_required": false,
+  "text_found": true,
+  "vision": {
+   "cine_keyframes": 1,
+   "lead_markers_rescued": 0,
+   "mask_style": "glyph",
+   "ner_flipped_lines": 0,
+   "oriented_quads_masked": 0,
+   "radiometric_3ch": true,
+   "stylus_marks_masked": 0,
+   "verified_kept_lines": 0,
+   "version": "1.1"
+  }
+ },
+ "policy": {
+  "attributes": {
+   "id": "attribute_policy_v1",
+   "sha256": "3ac1e832ca1ea38badd9b6005382e103a74b28842254c09a96a588c5d40ae4b4"
+  },
+  "clinical_text": {
+   "eponyms": "9e197f72a56c3ca453e9e2c24d70544f5eb0a5248d68c4741a111684c1a242d8",
+   "ner_bundle": "19f7ec8a3e8bc20f73a49d1046829f9d258da8c3f92dfe0f89d3e5c275352828",
+   "rules": "db43c2b105930d84c2b6b0533d1239462703abf21670ef49edddcd1390c9adfa",
+   "sr_concepts": "34159a337193ae3081443d5dea20289211aad3c78c45840331e8e94e0e9edfe5"
+  },
+  "header_lexicon": {
+   "descriptor_vocab": "d0bad7d88ab11ee852c084ade4269be07d6fd2d6312530ed44184184ca024c24",
+   "device_vocab": "b70d82606fe1cbcebbf8c0ac6f98897c84c9191543ecaab61a61b5f81454d127",
+   "lexicon": "19e433d8df9cf076b565e5da9d75f7c6ec74d39c82330321c70c50e1d748c83f"
+  },
+  "id": "whitelist_default",
+  "sha256": "8d06492b7984e8dc98d087adc100fefce31ddef45a866786f4bfdfc49f422049",
+  "tables": {
+   "dicom_codes_v1.json": "99b334b7554cf934e4a914f9c3d5cfe00292cd6503648afcf8eea3819f8b2e38",
+   "dicom_dictionary_v1.json": "6d7db7ee0a8bf48364a476ca08c5cbc5e47e2c45c0614ea90ebc2c5a04b03b4b",
+   "dicom_uids_v1.txt": "9afc53260839443345d4bd511611b2164c267c5cc7f0519cdd19187ae57e87c1",
+   "known_values_v1.json": "e83e32e547cd024b3f0e2e8baee86d504672c09a5d193bd81ac8d65c85cd2c9f"
+  }
+ },
+ "prev": null,
+ "profile": {
+  "options": [
+   "retain_patient_chars",
+   "retain_long_modif_dates",
+   "clean_descriptors",
+   "clean_struct_content",
+   "clean_pixel_data",
+   "shift_time",
+   "vision_v1"
+  ],
+  "pseudonym_prefix": "PS"
+ },
+ "publication": "released",
+ "seal": "26942923c6ea0268296b0d1df19b0e182fc1c784710ea3f61b9aa744ca1203d6",
+ "standard": "DICOM PS3.15 2026d - Security and System Management Profiles",
+ "tool": {
+  "engine": "cpp-core",
+  "name": "DICOM-Anonymizer",
+  "version": "0.9.2"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "admission": {
+  "admitted": false,
+  "allowlist": {
+   "sha256": "02a2e6fe5db210465ac3396204b833edebb46af0cd0d1faaac7c9cb0d63f5721",
+   "version": "5"
+  },
+  "combo": [
+   "1.2.840.10008.5.1.4.1.1.2",
+   "1.2.840.10008.1.2.1",
+   1,
+   "MONOCHROME2",
+   16,
+   0
+  ],
+  "reasons": [
+   "Modality LUT Sequence: преобразование не реализовано",
+   "двоичный элемент (0028,3006) без правила таблицы: содержимое не судится"
+  ]
+ },
+ "cert_version": "1.0",
+ "input": {
+  "name_hmac": "0c6540f279ea99bd",
+  "sha256": "b8b73f4c9a8cd1f2f2d4b5d77556ea9a006444a8bd44374825014d41e2273697"
+ },
+ "key_id": "bb8afd4d85be1d13",
+ "outcome": "REFUSED",
+ "outcome_reasons": [
+  "Modality LUT Sequence: преобразование не реализовано",
+  "двоичный элемент (0028,3006) без правила таблицы: содержимое не судится"
+ ],
+ "output": null,
+ "pixel_check": null,
+ "prev": null,
+ "publication": "none",
+ "seal": "8409196ec5c3ba59c0198e9bdf6e04a3799e0351fb3681ec2d2ac2ea3cca5139",
+ "standard": "DICOM PS3.15 2026d - Security and System Management Profiles",
+ "tool": {
+  "engine": "cpp-core",
+  "name": "DICOM-Anonymizer",
+  "version": "0.9.2"
+ }
+}

@@ -1,0 +1,260 @@
+{
+    "schema_version": "2.1",
+    "platform": "DICOM.BY",
+    "generated_at": "2026-11-27T12:04:03Z",
+    "update_signing_pubkey_ed25519": "e3e4a53f46c919f587460c6522c00c9e53299f1c564619d997ccb6d21b8b45c7",
+    "supply_chain": {
+        "sbom_cyclonedx_url": "https://dicom.by/updates/sbom-0.9.2.cdx.json",
+        "sbom_cyclonedx_sha256": "96ad36bc74f2a3da1962eb97c8f0d66183109dbfb958b5fbcef751ef9cc24950",
+        "public_verifier_url": "https://dicom.by/public_verifier/dicom_by_verify.py",
+        "public_verifier_sha256": "3bf0f9f0b54324ee26a41e3e2530e3e0dfd23a71c013aa40ce729022249a945e",
+        "gates_doc_url": "https://dicom.by/docs/GATES.md",
+        "gates_doc_sha256": "9eff07f0abbc56b1feea6b78bc43210eee816d507f3121fb8285ccf2fb2a81d7",
+        "authenticode_code_signing": false,
+        "independent_third_party_audit": false
+    },
+    "editions": {
+        "desktop_community": {
+            "name": "DICOM.BY Desktop (Registered Freeware)",
+            "version": "0.9.2",
+            "license": "Freeware-Registered (Ed25519 offline key)",
+            "components": [
+                "DICOM-BY.exe",
+                "dicom-anon.exe",
+                "dicom-verify.exe"
+            ],
+            "installer_file": "DICOM-BY-0.9.2-Setup.exe",
+            "installer_sha256": "3b4d965d24b6246245d86eb95fdda2625e1e359a35ee00a9ba70677962040664",
+            "installer_size": 51450835,
+            "download_url": "https://dicom.by/downloads/DICOM-BY-0.9.2-Setup.exe",
+            "registration_url": "https://dicom.by/get-key/",
+            "update_manifest_url": "https://dicom.by/updates/windows-x64.json",
+            "repository_url": "https://github.com/TSP-radiology/DICOM.BY"
+        },
+        "gateway_pro": {
+            "name": "DICOM.BY Gateway Pro (Enterprise)",
+            "version": "0.9.2",
+            "license": "Commercial",
+            "components": [
+                "dicom-anon-gateway.exe",
+                "gateway.example.json",
+                "DICOM-BY.exe",
+                "dicom-anon.exe",
+                "dicom-verify.exe"
+            ],
+            "zip_file": "DICOM-Anonymizer-0.9.2-win-x64.zip",
+            "zip_sha256": "28ab747628f5fc345b568ffa1754d5932bd14fcbc7f8dfb0ef8f338f90c7e466",
+            "zip_size": 57085889,
+            "package_file_count": 76,
+            "inquiry_url": "https://dicom.by/pilot/"
+        }
+    },
+    "core": {
+        "version": "0.9.2",
+        "cpp_standard": "C++17",
+        "dicom_standard": "DICOM PS3.15 2026d",
+        "admission_version": "5",
+        "admission_canonical_rules_sha256": "02a2e6fe5db210465ac3396204b833edebb46af0cd0d1faaac7c9cb0d63f5721",
+        "binaries_sha256": {
+            "dicom-anon.exe": "7d8dc7d7db295ee8c1cacc2b16c71f548f767734e591b0b5eba5f4b49aff4e40",
+            "dicom-anon-gateway.exe": "71a4998f6f1baa0c0596720909133f797b70f828dbc4b9a49b0c2873ec081780",
+            "dicom-verify.exe": "802aea2f8278d1b5e70d35c529b77483def4e987ec29751c10fbca80d35940a0",
+            "DICOM-BY.exe": "287c33ab1d954f3f180ee4c969b1b269dd13e271bc994873791ece2d3908ee86"
+        },
+        "models_ocr_sha256": {
+            "ch_PP-OCRv4_det_infer.onnx": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9",
+            "ch_PP-OCRv4_rec_infer.onnx": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b",
+            "ch_ppocr_mobile_v2.0_cls_infer.onnx": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c",
+            "eslav_PP-OCRv5_rec.onnx": "dc6bf0e855247decce214ba6dae5bc135fa0ad725a5918a7fcfb59fad6c9cdee"
+        },
+        "models_clinical_ner_sha256": {
+            "dicom_eta_ner_int8.onnx": "99d03e2a97198ef357768c2f2a1a1ab0f2eb9558ed4ec56c0e3fea6ad77d1d32",
+            "vocab.txt": "efdf896761f5559db08559f97fef2968c7806f1dc0ae5c891bcbb345a913a9ed",
+            "transition_v1.json": "9ed4306aa2d960974a26a0598aee84972e804dce102a7ea031f9b8e0519ed100",
+            "calibration_v1.json": "c30542e59599e6a7f624a6aa400e9de69fa7a589c1ab6226074d0de449b28b20"
+        },
+        "standards_sha256": {
+            "admission_v5.json": "2638180bc7f9a9dfd10f339fe40862c32823db2a788cda63e771781e4cd00360",
+            "annex_e.json": "f38f6967a94830a19c4d46ff77be82d01590d854f2f1c8c6b1d42867c2f4e839",
+            "attribute_policy_v1.json": "3ac1e832ca1ea38badd9b6005382e103a74b28842254c09a96a588c5d40ae4b4",
+            "private_safe_v2.json": "a0917d61dfcc1a3cc6f3240ce611bcb97f1eb71baa651843f6d5dde6c1f0f3b6"
+        }
+    },
+    "benchmarks": {
+        "s6a_validation": {
+            "series_rate_pct": 98.23,
+            "sr_imagetype_target_errors": 0
+        },
+        "s6b_blind_test": {
+            "total_objects": 29660,
+            "released": 28605,
+            "review": 953,
+            "refused": 102,
+            "refused_series": 4,
+            "total_series": 428,
+            "series_all_numerator": 174801,
+            "series_all_denominator": 178820,
+            "series_complete_pct": 98.16,
+            "series_all_pct": 97.75,
+            "objects_all_numerator": 7864280,
+            "objects_all_denominator": 8035948,
+            "objects_pct": 97.86,
+            "released_series_pct": 80.79,
+            "released_objects_pct": 95.26,
+            "released_without_review_refused_series_pct": 98.2,
+            "dciodvfy_new_errors": 0,
+            "pixels_hidden_leaked": 0,
+            "hipaa_z_failures": 0,
+            "hipaa_z_checks": 1116405,
+            "hipaa_b_failures": 1,
+            "hipaa_b_checks": 697264,
+            "hipaa_b_category": [
+                "patient_address",
+                "comment"
+            ],
+            "k2_status": "FAIL (strict zero threshold)",
+            "blind_k5_preserved": true,
+            "throughput_obj_per_sec": 9.53
+        },
+        "g5m_clinical_labels": {
+            "preserved_pct": 79.2,
+            "threshold_pct": 80,
+            "status": "FAIL (historical 0.4.0; closed in 0.6.0 G5R)"
+        },
+        "gateway_050_security_and_return": {
+            "security_clinic": "7/7 PASS (S1..S7)",
+            "ai_return_rebind": "PASS (C1..C3)",
+            "ai_router": "5/5 PASS (T1..T5)"
+        },
+        "g5r_ocr_060": {
+            "seed": 20261130,
+            "phi_ge_12px_pct": 100,
+            "phi_ge_12px": "600/600",
+            "red1_a3_attacker_reads": "0/731",
+            "false_blank_pct": 0.91,
+            "false_blank": "5/547",
+            "clinical_labels_pct": 83.3,
+            "clinical_labels": "864/1037",
+            "threshold_pct": 80,
+            "status": "PASS"
+        },
+        "midi_b_validation_060": {
+            "total_objects": 23921,
+            "released": 23125,
+            "review": 796,
+            "refused": 0,
+            "hipaa_released_failures": 0,
+            "hipaa_released_checks": 567859,
+            "dciodvfy_new_errors": 0,
+            "dciodvfy_fixed_errors": 1109,
+            "roi_center_ssim": 0.9984,
+            "our_only_pct": 1.35,
+            "our_only": "3/223",
+            "verify_cert_clean": "67/67",
+            "status": "PASS"
+        },
+        "g6_ner_070": {
+            "model": "DicomEtaNER-v1",
+            "languages": [
+                "RU",
+                "BY",
+                "EN",
+                "ZH"
+            ],
+            "charsets_added": [
+                "GB18030",
+                "GBK",
+                "GB2312",
+                "ISO 2022 IR 58"
+            ],
+            "artifact_total_mb": 10.17,
+            "cpu_median_ms": 1.01,
+            "cpu_p95_ms": 2.06,
+            "pt_fp32_vs_ort_int8_match": "30/30",
+            "overall_span_f1": 0.9488,
+            "wikiann_span_f1": {
+                "ru": 0.9541,
+                "be": 0.9543,
+                "en": 0.9439,
+                "zh": 0.8993
+            },
+            "standalone_phi_leak_pct": 0.74,
+            "standalone_phi_leak": "10/1352",
+            "eponym_preserved_pct": 100,
+            "eponym_preserved": "448/448",
+            "benign_false_intervention": "2/448",
+            "e2e_cpp_phi_leak": "0/100",
+            "false_quarantine_reduction": "26/100 -> 1/100 (-96.2%)",
+            "sr_e2e_proven": [
+                "SR_RU",
+                "SR_ZH_UTF8",
+                "SR_ZH_GB18030"
+            ],
+            "sabotage_fail_closed": "3/3",
+            "status": "PASS"
+        },
+        "engine_080_perf_and_codecs": {
+            "ct48_jobs8_before_sec": 14.954,
+            "ct48_jobs8_after_sec": 6.311,
+            "ct48_jobs8_fps_before": 3.21,
+            "ct48_jobs8_fps_after": 7.61,
+            "ct48_speedup_factor": 2.38,
+            "ct128_jobs8_sec": 14.812,
+            "ct128_jobs8_fps": 8.64,
+            "peak_ram_mb_before": 2621.1,
+            "peak_ram_mb_after": 966,
+            "ram_reduction_pct": 63.1,
+            "multiworker_determinism": "jobs=1 == jobs=8 byte-exact (24/24 artifacts)",
+            "codecs_and_security": [
+                "RLE Lossless (1.2.840.10008.1.2.5) native decode",
+                "JPEG 2000 multi-threaded decode + precision/sign validation",
+                "Post-decompression >HighBit steganography refusal (fail-closed)"
+            ],
+            "status": "PASS"
+        },
+        "vision_090_sota_2d": {
+            "suite": "selftest_vision_090 (6/6 pillars + sabotage gates)",
+            "radiometric_3ch_oow_stroke_erased_pct": 100,
+            "oriented_quad_collateral_reduction_pct": 94.6,
+            "steep_32deg_vision_erased_pct": 100,
+            "mixed_line_phi_erased_pct": 100,
+            "mixed_line_marker_preserved_pct": 100,
+            "tagless_us_single_and_cine_banner_zeroed_pct": 100,
+            "tagless_us_cone_preserved_pct": 100,
+            "tagless_us_coneless_sabotage_rc": 10,
+            "cine_transient_phi_erased_pct": 100,
+            "conformal_laterality_markers_screened": "16/16 (legacy quarantined 16/16 -> Vision 0/16)",
+            "initial_collision_sabotage_rc": 10,
+            "ssim_full_solid": 0.91494,
+            "ssim_full_glyph": 0.99649,
+            "ssim_patch_solid": 0.1409,
+            "ssim_patch_glyph": 0.9598,
+            "psnr_patch_solid_db": 12.88,
+            "psnr_patch_glyph_db": 36.53,
+            "psnr_gain_db": 23.65,
+            "multiworker_determinism": "jobs=1 == jobs=8 byte-exact (16/16 artifacts)",
+            "status": "PASS"
+        },
+        "vision_092_sota_2d": {
+            "suite": "selftest_vision_092 (8/8 pillars + 7 sabotage gates, self-reported reproducible)",
+            "report_url": "https://dicom.by/assets/reports/0.9.2/selftest_vision_092_report.json",
+            "report_sha256": "edc5c3cc29edb4f7d101ee44b86c5109829584e5b3b86375835383d9fe8d2ae7",
+            "dual_us_and_doppler_ecg": "4 regions (left/right cones + PW Doppler + ECG 100% preserved, central header + Doppler PHI 100% erased)",
+            "radiopaque_lead_and_stencil": "6/6 SCREENED intact ([Л], [П], [R] with island+pinhole, 90-deg blurred R, framed+bead L, MONOCHROME1 [L]) + 7/7 sabotage PASS",
+            "multiworker_determinism": "jobs=1 == jobs=8 byte-exact (20/20 artifacts)",
+            "status": "PASS"
+        },
+        "tcia_real_corpus_092": {
+            "suite": "bench_comprehensive_092 (NCI TCIA Pseudo-PHI 237 clinical objects + PS3.15 (0028,0303)=MODIFIED, self-reported reproducible)",
+            "report_url": "https://dicom.by/assets/reports/0.9.2/tcia_vision_092_report.json",
+            "report_sha256": "cbbbbad18be7d09115bacacac197df4ac5d909d4cb1e304d4e6e083745c19144",
+            "matrix_report_url": "https://dicom.by/assets/reports/0.9.2/matrix_092_report.json",
+            "matrix_report_sha256": "4418492debbff7375294d7c8c35aaaa38852adb3b787fd3a8c99c0b172b9e5a4",
+            "planar_cr_dx_mg_coverage": "100%",
+            "ps3_15_0028_0303_modified": "216/216 released objects verified",
+            "status": "PASS"
+        }
+    },
+    "signing_key_id": "1fa13a53af0a7294",
+    "signature_ed25519": "aZlWySLZU7zEKuc5Mr0xSnBp5oQVsa2F09tW_k0h9PnBNCrZaT3emYQMlm9Xsauf6Gp6LeKpttjTCUWRQ8iKDQ"
+}
