@@ -1,0 +1,1712 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-11-27T16:49:36Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "dicom-by@0.9.4",
+      "name": "DICOM.BY Controlled Medical Imaging De-identification Suite",
+      "version": "0.9.4",
+      "purl": "pkg:generic/dicom-by@0.9.4?os=windows&arch=x86_64"
+    }
+  },
+  "components": [
+    {
+      "type": "file",
+      "bom-ref": "anonymize.ps1",
+      "name": "anonymize.ps1",
+      "version": "0.9.4",
+      "description": "anonymize.ps1",
+      "purl": "pkg:generic/dicom-by/anonymize.ps1@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f79ad6fcc55bc9187ce5741fbea6c3f11a7fe007b56343896a369c7fdf252614"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "dcmdata.dll",
+      "name": "dcmdata.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (dcmdata.dll)",
+      "purl": "pkg:generic/dcmtk/dcmdata.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0707e03ea287c8095a7d65cd96cfaac49d61d5e8688178aa6c36f7ec7fa4638f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "dcmimgle.dll",
+      "name": "dcmimgle.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (dcmimgle.dll)",
+      "purl": "pkg:generic/dcmtk/dcmimgle.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a85128cea937e168a74f70e2b555fb6b357517a67df849f4247199bf66094eb2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "dcmjpeg.dll",
+      "name": "dcmjpeg.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (dcmjpeg.dll)",
+      "purl": "pkg:generic/dcmtk/dcmjpeg.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fbd0211b271b223e126375a658a826ad6ba3d3b2c37a91ef038abfb90d5997a5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "dcmjpls.dll",
+      "name": "dcmjpls.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (dcmjpls.dll)",
+      "purl": "pkg:generic/dcmtk/dcmjpls.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ac3003962bbd465d5846737118524c7304c71227d3ff814bb88842fa3b3df8e8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "dcmnet.dll",
+      "name": "dcmnet.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (dcmnet.dll)",
+      "purl": "pkg:generic/dcmtk/dcmnet.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "5c1fb943a80bd97fd23bf6c5df09283bca5d557080d38c48c5bad6a96e84125f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "dcmtkcharls.dll",
+      "name": "dcmtkcharls.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (dcmtkcharls.dll)",
+      "purl": "pkg:generic/dcmtk/dcmtkcharls.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2b03820987cf5254594649447cf35a85671abe85edee145c336933ce6f1c56db"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "dicom-anon-gateway.exe",
+      "name": "dicom-anon-gateway.exe",
+      "version": "0.9.4",
+      "description": "DICOM.BY native C++17 binary (dicom-anon-gateway.exe)",
+      "purl": "pkg:generic/dicom-by/dicom-anon-gateway.exe@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fffc578efe7c51d3950ebd00023109401f85c665f5f1c0bd5cfea875696722c2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "dicom-anon.exe",
+      "name": "dicom-anon.exe",
+      "version": "0.9.4",
+      "description": "DICOM.BY native C++17 binary (dicom-anon.exe)",
+      "purl": "pkg:generic/dicom-by/dicom-anon.exe@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f8cf8a2af00548915ddf35e1c95e8ce4e9d1d86a742eb9c85d68b99adf12a1a8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "DICOM-BY.exe",
+      "name": "DICOM-BY.exe",
+      "version": "0.9.4",
+      "description": "DICOM.BY native C++17 binary (DICOM-BY.exe)",
+      "purl": "pkg:generic/dicom-by/DICOM-BY.exe@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "083f11a04a2a7524c6cc90ce0d2f00af52b6a04a9c6c35a97f542aa190a2635d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "bom-ref": "dicom-verify.exe",
+      "name": "dicom-verify.exe",
+      "version": "0.9.4",
+      "description": "DICOM.BY native C++17 binary (dicom-verify.exe)",
+      "purl": "pkg:generic/dicom-by/dicom-verify.exe@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2b619afbf45a80e6ddcfb9ba649cdfe8e1e5b467396e284c8593dbb0ddd05a8a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "docs/DICOM_CONFORMANCE_STATEMENT.md",
+      "name": "docs/DICOM_CONFORMANCE_STATEMENT.md",
+      "version": "0.9.4",
+      "description": "docs/DICOM_CONFORMANCE_STATEMENT.md",
+      "purl": "pkg:generic/dicom-by/docs/DICOM_CONFORMANCE_STATEMENT.md@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "61b5d2aa5bfaced02e032e3b92e3cf9b68787071e9a8ff91e500d89fbad29bdb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "docs/KEY_LIFECYCLE_AND_PROVENANCE.md",
+      "name": "docs/KEY_LIFECYCLE_AND_PROVENANCE.md",
+      "version": "0.9.4",
+      "description": "docs/KEY_LIFECYCLE_AND_PROVENANCE.md",
+      "purl": "pkg:generic/dicom-by/docs/KEY_LIFECYCLE_AND_PROVENANCE.md@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9cda241c864192de9c164c7c91607daee4c8cad9d13fe99dfb88fe6d928834f3"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "gateway.example.json",
+      "name": "gateway.example.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (gateway.example.json)",
+      "purl": "pkg:generic/dicom-by-data/gateway.example.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d36ef3ce2c010cfbf335649442b07f979113ef41de5d147358bb218272ddaf23"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "ijg12.dll",
+      "name": "ijg12.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (ijg12.dll)",
+      "purl": "pkg:generic/dcmtk/ijg12.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0f4721429129cf572142cbc06d2215fb0e536c04ebac748f05469626e3b31860"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "ijg16.dll",
+      "name": "ijg16.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (ijg16.dll)",
+      "purl": "pkg:generic/dcmtk/ijg16.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "155994776631d2a2b6c99c9afdfaadc8e83f7449ea04158de4d72817bc82cbec"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "ijg8.dll",
+      "name": "ijg8.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (ijg8.dll)",
+      "purl": "pkg:generic/dcmtk/ijg8.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8c02dc74762488d7ee510c5e352bc9325d23817506388a2d5c2294abb5032262"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libcrypto-3-x64.dll",
+      "name": "libcrypto-3-x64.dll",
+      "version": "3.5.3",
+      "description": "OpenSSL libcrypto",
+      "purl": "pkg:generic/openssl@3.5.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c36517ecb6129af41225e799e18a455646ad8e03b4675b75b6a2e77127ab2d01"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "libssl-3-x64.dll",
+      "name": "libssl-3-x64.dll",
+      "version": "3.5.3",
+      "description": "OpenSSL libssl",
+      "purl": "pkg:generic/openssl@3.5.3",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "1c7907aae02e31b632cb21c7fd16cbf9b850df83715e65369cdb815c443f6022"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/clipper2.txt",
+      "name": "licenses/clipper2.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/clipper2.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/clipper2.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c9bff75738922193e67fa726fa225535870d2aa1059f91452c411736284ad566"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "licenses/data/DATA_SOURCES.md",
+      "name": "licenses/data/DATA_SOURCES.md",
+      "version": "0.9.4",
+      "description": "licenses/data/DATA_SOURCES.md",
+      "purl": "pkg:generic/dicom-by/licenses/data/DATA_SOURCES.md@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "4ec8fea95367df5413c15e1a1ccc7b3e399d88fb3438b59dad2a2cc20f11d91a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "licenses/data/RadLex_License_v2.1.pdf",
+      "name": "licenses/data/RadLex_License_v2.1.pdf",
+      "version": "0.9.4",
+      "description": "licenses/data/RadLex_License_v2.1.pdf",
+      "purl": "pkg:generic/dicom-by/licenses/data/RadLex_License_v2.1.pdf@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fd30e1c463d8466d519b9b31e1a9fc340c40c84fa28f7920a5808dbd125e286c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/dcmtk.txt",
+      "name": "licenses/dcmtk.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/dcmtk.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/dcmtk.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "729870b2e28532933c7313fae7c3243e10c0b18eee725a683b002b3cdff4a8aa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/nlohmann-json.txt",
+      "name": "licenses/nlohmann-json.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/nlohmann-json.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/nlohmann-json.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "46a65cffd1ea955132d95a8dd921640714a8d6b537d2e4e482d31145ae95b603"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/onnxruntime_LICENSE.txt",
+      "name": "licenses/onnxruntime_LICENSE.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/onnxruntime_LICENSE.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/onnxruntime_LICENSE.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/onnxruntime_ThirdPartyNotices.txt.txt",
+      "name": "licenses/onnxruntime_ThirdPartyNotices.txt.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/onnxruntime_ThirdPartyNotices.txt.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/onnxruntime_ThirdPartyNotices.txt.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e00f828e0a33de591a355ae6606d2625f5758da7d2c844db7821c9dd3e3647b6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/opencv4.txt",
+      "name": "licenses/opencv4.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/opencv4.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/opencv4.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e5313db48cd388bb81b5f748aa9ba8b979e592e49ca7cc612ad8c4b01168f6f2"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/openjpeg.txt",
+      "name": "licenses/openjpeg.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/openjpeg.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/openjpeg.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a6af136f3e15038a666b61f376612a07d9a4e48cb7c01adbf3e33b3f14ab49b6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/openssl.txt",
+      "name": "licenses/openssl.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/openssl.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/openssl.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/webview2_LICENSE.txt",
+      "name": "licenses/webview2_LICENSE.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/webview2_LICENSE.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/webview2_LICENSE.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0af8f1b807512aae39c2ac1aa4d0cae65cabecb6fd554b8439a5162a0d6eca55"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/yaml-cpp.txt",
+      "name": "licenses/yaml-cpp.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/yaml-cpp.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/yaml-cpp.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "aa6fcc27be034e41e21dd832f9175bfe694a48491d9e14ff0fa278e19ad14f1b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "licenses/zlib.txt",
+      "name": "licenses/zlib.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (licenses/zlib.txt)",
+      "purl": "pkg:generic/dicom-by-data/licenses/zlib.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "models/clinical_ner/calibration_v1.json",
+      "name": "models/clinical_ner/calibration_v1.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (models/clinical_ner/calibration_v1.json)",
+      "purl": "pkg:generic/dicom-by-data/models/clinical_ner/calibration_v1.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "c30542e59599e6a7f624a6aa400e9de69fa7a589c1ab6226074d0de449b28b20"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "machine-learning-model",
+      "bom-ref": "models/clinical_ner/dicom_eta_ner_int8.onnx",
+      "name": "models/clinical_ner/dicom_eta_ner_int8.onnx",
+      "version": "1.0",
+      "description": "DicomEtaNER-v1 Clinical Transformer (INT8 ONNX)",
+      "purl": "pkg:generic/dicom-eta-ner-v1@1.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "99d03e2a97198ef357768c2f2a1a1ab0f2eb9558ed4ec56c0e3fea6ad77d1d32"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "models/clinical_ner/SOURCE.md",
+      "name": "models/clinical_ner/SOURCE.md",
+      "version": "0.9.4",
+      "description": "models/clinical_ner/SOURCE.md",
+      "purl": "pkg:generic/dicom-by/models/clinical_ner/SOURCE.md@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "bd52a82f16197c7d007e8b694e36ac6a4a79a0ebb17c9e095174b3357b30b7f4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "models/clinical_ner/tokenizer_golden.json",
+      "name": "models/clinical_ner/tokenizer_golden.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (models/clinical_ner/tokenizer_golden.json)",
+      "purl": "pkg:generic/dicom-by-data/models/clinical_ner/tokenizer_golden.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3e23376536555d7a19c279206e072d1b6c3a7ec4f965156884e78d3f998fc3ca"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "models/clinical_ner/transition_v1.json",
+      "name": "models/clinical_ner/transition_v1.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (models/clinical_ner/transition_v1.json)",
+      "purl": "pkg:generic/dicom-by-data/models/clinical_ner/transition_v1.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9ed4306aa2d960974a26a0598aee84972e804dce102a7ea031f9b8e0519ed100"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "models/clinical_ner/vocab.txt",
+      "name": "models/clinical_ner/vocab.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (models/clinical_ner/vocab.txt)",
+      "purl": "pkg:generic/dicom-by-data/models/clinical_ner/vocab.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "efdf896761f5559db08559f97fef2968c7806f1dc0ae5c891bcbb345a913a9ed"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "models/cyrillic/cyrillic_dict.txt",
+      "name": "models/cyrillic/cyrillic_dict.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (models/cyrillic/cyrillic_dict.txt)",
+      "purl": "pkg:generic/dicom-by-data/models/cyrillic/cyrillic_dict.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "369a82c6c8c479784a5d726448b83b1eafb5fef0a4129a5eaa3929625ddcd132"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "models/cyrillic/cyrillic_PP-OCRv3_rec_infer.onnx",
+      "name": "models/cyrillic/cyrillic_PP-OCRv3_rec_infer.onnx",
+      "version": "0.9.4",
+      "description": "models/cyrillic/cyrillic_PP-OCRv3_rec_infer.onnx",
+      "purl": "pkg:generic/dicom-by/models/cyrillic/cyrillic_PP-OCRv3_rec_infer.onnx@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "befb0c18a5648d44c6e7891ea10d8ee8edd8ee98698e2b952c33474025273f31"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "models/cyrillic/SOURCE.md",
+      "name": "models/cyrillic/SOURCE.md",
+      "version": "0.9.4",
+      "description": "models/cyrillic/SOURCE.md",
+      "purl": "pkg:generic/dicom-by/models/cyrillic/SOURCE.md@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "fad0baf0f36820ced3849b0de9cabf0725d098931d1b58f41987df1d5f7931dd"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "models/eslav/config.json",
+      "name": "models/eslav/config.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (models/eslav/config.json)",
+      "purl": "pkg:generic/dicom-by-data/models/eslav/config.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e1a9cce5fdd904d2e8a1bb3289ae136268f84e9989922517242edd6956536a55"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "models/eslav/eslav_dict.txt",
+      "name": "models/eslav/eslav_dict.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (models/eslav/eslav_dict.txt)",
+      "purl": "pkg:generic/dicom-by-data/models/eslav/eslav_dict.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3e95f1581557162870cacdba5af91a4c6be2890710d395b0c3c7578e7ee5e6eb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "machine-learning-model",
+      "bom-ref": "models/eslav/eslav_PP-OCRv5_rec.onnx",
+      "name": "models/eslav/eslav_PP-OCRv5_rec.onnx",
+      "version": "5.0",
+      "description": "PaddleOCR v5 East-Slavic Recognition (ONNX)",
+      "purl": "pkg:generic/ppocr-v5-eslav@5.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "dc6bf0e855247decce214ba6dae5bc135fa0ad725a5918a7fcfb59fad6c9cdee"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "models/eslav/SOURCE.md",
+      "name": "models/eslav/SOURCE.md",
+      "version": "0.9.4",
+      "description": "models/eslav/SOURCE.md",
+      "purl": "pkg:generic/dicom-by/models/eslav/SOURCE.md@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "480f1bf3fcfb197fbcfd086d488c39639f4f393cd5826d5e768161b8cf9ed478"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "machine-learning-model",
+      "bom-ref": "models/ppocr/ch_PP-OCRv4_det_infer.onnx",
+      "name": "models/ppocr/ch_PP-OCRv4_det_infer.onnx",
+      "version": "4.0",
+      "description": "PaddleOCR v4 Text Detection (ONNX)",
+      "purl": "pkg:generic/ppocr-v4-det@4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d2a7720d45a54257208b1e13e36a8479894cb74155a5efe29462512d42f49da9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "machine-learning-model",
+      "bom-ref": "models/ppocr/ch_PP-OCRv4_rec_infer.onnx",
+      "name": "models/ppocr/ch_PP-OCRv4_rec_infer.onnx",
+      "version": "4.0",
+      "description": "PaddleOCR v4 Text Recognition (ONNX)",
+      "purl": "pkg:generic/ppocr-v4-rec@4.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "48fc40f24f6d2a207a2b1091d3437eb3cc3eb6b676dc3ef9c37384005483683b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "machine-learning-model",
+      "bom-ref": "models/ppocr/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+      "name": "models/ppocr/ch_ppocr_mobile_v2.0_cls_infer.onnx",
+      "version": "2.0",
+      "description": "PaddleOCR Orientation Classifier (ONNX)",
+      "purl": "pkg:generic/ppocr-cls@2.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e47acedf663230f8863ff1ab0e64dd2d82b838fceb5957146dab185a89d6215c"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "models/ppocr/SOURCE.md",
+      "name": "models/ppocr/SOURCE.md",
+      "version": "0.9.4",
+      "description": "models/ppocr/SOURCE.md",
+      "purl": "pkg:generic/dicom-by/models/ppocr/SOURCE.md@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ae00900bcd987fea725970795f8cc5e77ed85462b9805e2a8dbd0996e0f847c0"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "oficonv.dll",
+      "name": "oficonv.dll",
+      "version": "bundled",
+      "description": "Runtime shared library (oficonv.dll)",
+      "purl": "pkg:generic/oficonv.dll",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "517786fab0a9a2d5833ad5aa0d8b9b4bef2b760c129d324fbf59504282dc5cfa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause OR MIT OR Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "oflog.dll",
+      "name": "oflog.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (oflog.dll)",
+      "purl": "pkg:generic/dcmtk/oflog.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6648bec6db9a6ac94897e61945d82443d58e0ddeae6b29b6c59d8ff66165c325"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "ofstd.dll",
+      "name": "ofstd.dll",
+      "version": "3.6.9",
+      "description": "OFFIS DCMTK runtime library (ofstd.dll)",
+      "purl": "pkg:generic/dcmtk/ofstd.dll@3.6.9",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6cc6f5f29f639f56362ba767abe97c0d597504116a27efabf1ebac7fad6b037e"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "onnxruntime.dll",
+      "name": "onnxruntime.dll",
+      "version": "1.22.0",
+      "description": "Microsoft ONNX Runtime",
+      "purl": "pkg:github/microsoft/onnxruntime@1.22.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "579b636403983254346a5c1d80bd28f1519cd1e284cd204f8d4ff41f8d711559"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "onnxruntime_providers_shared.dll",
+      "name": "onnxruntime_providers_shared.dll",
+      "version": "bundled",
+      "description": "Runtime shared library (onnxruntime_providers_shared.dll)",
+      "purl": "pkg:generic/onnxruntime_providers_shared.dll",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "ba00ea1ef846c9b909c7854bc56c51051a20f9773b3e1153dda118d4b85d0b93"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "BSD-3-Clause OR MIT OR Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "opencv_core4.dll",
+      "name": "opencv_core4.dll",
+      "version": "4.11.0",
+      "description": "OpenCV Core",
+      "purl": "pkg:github/opencv/opencv@4.11.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b71be5e949bb9a8426438df64c88d8538d9cf74a4c307798d9bd824c650f328f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "opencv_imgproc4.dll",
+      "name": "opencv_imgproc4.dll",
+      "version": "4.11.0",
+      "description": "OpenCV Imgproc",
+      "purl": "pkg:github/opencv/opencv@4.11.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "39508f7995d6c45eced833780e8fa41fd707ffac544555a77cb1e99641c8e60f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "openjp2.dll",
+      "name": "openjp2.dll",
+      "version": "2.5.2",
+      "description": "OpenJPEG (JPEG 2000)",
+      "purl": "pkg:github/uclouvain/openjpeg@2.5.2",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0cad6b80386ea081174a3bb33ff2d1a83f19953388c4e60537827fa347e57aa9"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-2-Clause"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "README.md",
+      "name": "README.md",
+      "version": "0.9.4",
+      "description": "README.md",
+      "purl": "pkg:generic/dicom-by/README.md@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "38d76026f0553cf7b137e5f494f7c9440838f417dd68440a7e3615d02be54dc8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/admission_v5.json",
+      "name": "standard/admission_v5.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/admission_v5.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/admission_v5.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "2638180bc7f9a9dfd10f339fe40862c32823db2a788cda63e771781e4cd00360"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/admission_v6.json",
+      "name": "standard/admission_v6.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/admission_v6.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/admission_v6.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9157948ec8cb43e6fee52986cd22bf317ba4f248ff3706f1788807eea93028fb"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/admission_v7.json",
+      "name": "standard/admission_v7.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/admission_v7.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/admission_v7.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0b327213dc3cbbdcc5a756a305f810e1ae666d1f69abdea053872c8141cb476d"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/annex_e.json",
+      "name": "standard/annex_e.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/annex_e.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/annex_e.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "f38f6967a94830a19c4d46ff77be82d01590d854f2f1c8c6b1d42867c2f4e839"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/attribute_policy_v1.json",
+      "name": "standard/attribute_policy_v1.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/attribute_policy_v1.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/attribute_policy_v1.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3ac1e832ca1ea38badd9b6005382e103a74b28842254c09a96a588c5d40ae4b4"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/clinical_text_eponyms_ru_v1.yaml",
+      "name": "standard/clinical_text_eponyms_ru_v1.yaml",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/clinical_text_eponyms_ru_v1.yaml)",
+      "purl": "pkg:generic/dicom-by-data/standard/clinical_text_eponyms_ru_v1.yaml@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9e197f72a56c3ca453e9e2c24d70544f5eb0a5248d68c4741a111684c1a242d8"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/clinical_text_rules_ru_by_v1.json",
+      "name": "standard/clinical_text_rules_ru_by_v1.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/clinical_text_rules_ru_by_v1.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/clinical_text_rules_ru_by_v1.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "db43c2b105930d84c2b6b0533d1239462703abf21670ef49edddcd1390c9adfa"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/clinical_whitelist_v1.yaml",
+      "name": "standard/clinical_whitelist_v1.yaml",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/clinical_whitelist_v1.yaml)",
+      "purl": "pkg:generic/dicom-by-data/standard/clinical_whitelist_v1.yaml@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "19e433d8df9cf076b565e5da9d75f7c6ec74d39c82330321c70c50e1d748c83f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/descriptor_vocab_v1.txt",
+      "name": "standard/descriptor_vocab_v1.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/descriptor_vocab_v1.txt)",
+      "purl": "pkg:generic/dicom-by-data/standard/descriptor_vocab_v1.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d0bad7d88ab11ee852c084ade4269be07d6fd2d6312530ed44184184ca024c24"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/device_vocab_v1.txt",
+      "name": "standard/device_vocab_v1.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/device_vocab_v1.txt)",
+      "purl": "pkg:generic/dicom-by-data/standard/device_vocab_v1.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "b70d82606fe1cbcebbf8c0ac6f98897c84c9191543ecaab61a61b5f81454d127"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/dicom_codes_v1.json",
+      "name": "standard/dicom_codes_v1.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/dicom_codes_v1.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/dicom_codes_v1.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "99b334b7554cf934e4a914f9c3d5cfe00292cd6503648afcf8eea3819f8b2e38"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/dicom_dictionary_v1.json",
+      "name": "standard/dicom_dictionary_v1.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/dicom_dictionary_v1.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/dicom_dictionary_v1.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "6d7db7ee0a8bf48364a476ca08c5cbc5e47e2c45c0614ea90ebc2c5a04b03b4b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/dicom_uids_v1.txt",
+      "name": "standard/dicom_uids_v1.txt",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/dicom_uids_v1.txt)",
+      "purl": "pkg:generic/dicom-by-data/standard/dicom_uids_v1.txt@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "9afc53260839443345d4bd511611b2164c267c5cc7f0519cdd19187ae57e87c1"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/known_values_v1.json",
+      "name": "standard/known_values_v1.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/known_values_v1.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/known_values_v1.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "e83e32e547cd024b3f0e2e8baee86d504672c09a5d193bd81ac8d65c85cd2c9f"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/private_safe_v2.json",
+      "name": "standard/private_safe_v2.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/private_safe_v2.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/private_safe_v2.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "a0917d61dfcc1a3cc6f3240ce611bcb97f1eb71baa651843f6d5dde6c1f0f3b6"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/sr_concept_actions_v1.json",
+      "name": "standard/sr_concept_actions_v1.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/sr_concept_actions_v1.json)",
+      "purl": "pkg:generic/dicom-by-data/standard/sr_concept_actions_v1.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "34159a337193ae3081443d5dea20289211aad3c78c45840331e8e94e0e9edfe5"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "standard/whitelist_default.yaml",
+      "name": "standard/whitelist_default.yaml",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (standard/whitelist_default.yaml)",
+      "purl": "pkg:generic/dicom-by-data/standard/whitelist_default.yaml@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8d06492b7984e8dc98d087adc100fefce31ddef45a866786f4bfdfc49f422049"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "THIRD_PARTY.md",
+      "name": "THIRD_PARTY.md",
+      "version": "0.9.4",
+      "description": "THIRD_PARTY.md",
+      "purl": "pkg:generic/dicom-by/THIRD_PARTY.md@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d40363c4ce11e1f300b496d8bd1a129c2fee14918999db443f16e1cdf988673b"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "data",
+      "bom-ref": "VERSION.json",
+      "name": "VERSION.json",
+      "version": "0.9.4",
+      "description": "Standard policy / dictionary artifact (VERSION.json)",
+      "purl": "pkg:generic/dicom-by-data/VERSION.json@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "98cdb08d0dc282396eb2bc2649685efb85da962a44152898d9c03209f1f839ae"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "CC-BY-4.0 OR Apache-2.0 OR LicenseRef-DICOM-PS3.15"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "yaml-cpp.dll",
+      "name": "yaml-cpp.dll",
+      "version": "0.8.0",
+      "description": "yaml-cpp",
+      "purl": "pkg:github/jbeder/yaml-cpp@0.8.0",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "617ccf222bf92f145efd8be59529277e6a469795e380bba8fcdda5187d8e6571"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "zlib1.dll",
+      "name": "zlib1.dll",
+      "version": "1.3.1",
+      "description": "zlib",
+      "purl": "pkg:generic/zlib@1.3.1",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "7946d5be8261ca365350e3301c9213c65ac76e73fa379b64920f9a4747f90dbc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "id": "Zlib"
+          }
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "bom-ref": "Обезличить исследование.cmd",
+      "name": "Обезличить исследование.cmd",
+      "version": "0.9.4",
+      "description": "Обезличить исследование.cmd",
+      "purl": "pkg:generic/dicom-by/Обезличить исследование.cmd@0.9.4",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "d52d0ec0a1108cfe85f61effae2631184928360bd96485356d0251a0bced8cbc"
+        }
+      ],
+      "licenses": [
+        {
+          "license": {
+            "name": "LicenseRef-DICOM-BY"
+          }
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "bom-ref": "nlohmann-json",
+      "name": "nlohmann/json",
+      "version": "3.11.3",
+      "description": "JSON for Modern C++ (header-only)",
+      "purl": "pkg:github/nlohmann/json@3.11.3",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    }
+  ]
+}

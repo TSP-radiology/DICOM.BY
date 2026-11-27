@@ -1,0 +1,32 @@
+DICOM.BY — Условия лицензирования и распространения
+
+Данный публичный репозиторий является центром прозрачности, спецификаций и независимой верификации платформы DICOM.BY. Он состоит из двух лицензионных частей:
+
+1. Проприетарное ПО DICOM.BY Desktop и ядро обработки (Freeware / Commercial)
+   Copyright (c) 2026 Команда разработки DICOM.BY (TSP-radiology). Все права защищены.
+
+   - Настольное приложение DICOM-BY.exe, автономное ядро dicom-anon.exe, модели OCR и словари деидентификации распространяются в скомпилированном виде (установщик Windows DICOM-BY-Setup.exe) без передачи исходного кода.
+   - Использование настольного приложения DICOM.BY Desktop БЕСПЛАТНО для зарегистрированных пользователей на основании офлайн-ключа с подписью Ed25519 (получается бесплатно на https://dicom.by/get-key/).
+   - Запрещается без отдельного письменного договора: декомпиляция, обратная разработка, обход криптографической проверки лицензии или целостности, перебрендирование («white-label»), перепродажа и использование библиотек ядра в составе других коммерческих продуктов.
+   - Автоматический сетевой PACS-шлюз (DICOM.BY Gateway Pro) и OEM/SDK-встраивание требуют отдельной коммерческой лицензии (см. COMMERCIAL_LICENSE.md).
+
+2. Открытые инструменты верификации и спецификации допуска (MIT License)
+   Относится ИСКЛЮЧИТЕЛЬНО к каталогам `verify/` и `standard/admission_v5.json` в этом репозитории.
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
